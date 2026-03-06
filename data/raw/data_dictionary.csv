@@ -1,0 +1,51 @@
+table_name,table_description,column,column_description
+hospital,Hospital site transactional information.,technical_id,internal table ID
+hospital,Hospital site transactional information.,hospital_id,internal hospital ID
+hospital,Hospital site transactional information.,hospital_abbreviation,abbreviated hospital ID name
+hospital,Hospital site transactional information.,hospital_name,Name of hospital
+hospital_ward,Ward area transactional information for each hospital.,technical_id,internal table ID
+hospital_ward,Ward area transactional information for each hospital.,hospital_ward_id,internal hospital ward ID  
+hospital_ward,Ward area transactional information for each hospital.,hospital_ward_name,hospital ward name
+hospital_ward,Ward area transactional information for each hospital.,hospital_abbreviation,abbreviated hospital ID name
+machine,Machine (ADC) transactional information,technical_id,internal table ID
+machine,Machine (ADC) transactional information,machine_id,internal machine ID 
+machine,Machine (ADC) transactional information,machine_identifier,internal ID used to identify machine with hospital and name
+machine,Machine (ADC) transactional information,machine_name,long descriptive name of the machine
+machine,Machine (ADC) transactional information,machine_type,type of machine
+machine,Machine (ADC) transactional information,hospital_id,internal hospital ID
+medication,Medication item transactional information,technical_id,internal table ID
+medication,Medication item transactional information,machine_identifier,internal ID used to identify machine with hospital and name
+medication,Medication item transactional information,medication_id,internal medication ID 
+medication,Medication item transactional information,medication_detail_id,long internal medication ID
+medication,Medication item transactional information,medication,long descriptive name of medication + strength & form
+medication,Medication item transactional information,medication_unit,the unit in which the medication is dispensed/issued
+medication,Medication item transactional information,medication_unit_cost,the cost of one unit of the medication (available if recorded/configured by the hospital)
+nurse,Nurse/Machine user transactional information,technical_id,internal table ID
+nurse,Nurse/Machine user transactional information,nurse_id,internal nurse ID
+nurse,Nurse/Machine user transactional information,user_type,"identifier for access to machine, type of user"
+nurse,Nurse/Machine user transactional information,user_name,Name of nurse/user
+patient,Patient transactional information,technical_id,internal table ID
+patient,Patient transactional information,patient_id,internal patient ID
+patient,Patient transactional information,patient_identifier_number,hospital internal patient identifier number
+patient,Patient transactional information,patient_type,"type of patient (i.e. outpatient, inpatient, etc.)"
+restock,Restock transactional information,technical_id,internal table ID
+restock,Restock transactional information,restock_id,internal restock event ID
+restock,Restock transactional information,restock_number,hospital internal restock event identifier number
+restock,Restock transactional information,restock_route,route on which the restock event occurred
+restock,Restock transactional information,destination_ward,which ward the restock was due to occur on
+restock,Restock transactional information,destination_hospital,which hospital the restock was due to occur at
+transaction,All machine transaction information. These are any actions taken on the machine (ADC).,transaction_id,internal transaction ID
+transaction,All machine transaction information. These are any actions taken on the machine (ADC).,datetime,date & time of transaction
+transaction,All machine transaction information. These are any actions taken on the machine (ADC).,transaction_type,type of transaction that was performed on the machine
+transaction,All machine transaction information. These are any actions taken on the machine (ADC).,hospital_id,internal hospital ID where the transaction occurred
+transaction,All machine transaction information. These are any actions taken on the machine (ADC).,hospital_ward_id,internal hospital ward ID where the transaction occurred
+transaction,All machine transaction information. These are any actions taken on the machine (ADC).,machine_id,internal machine ID where the transaction occurred
+transaction,All machine transaction information. These are any actions taken on the machine (ADC).,nurse_id,internal nurse ID who performed the transaction
+transaction,All machine transaction information. These are any actions taken on the machine (ADC).,patient_id,internal patient ID who the transaction related to
+transaction,All machine transaction information. These are any actions taken on the machine (ADC).,medication_id,internal medication ID which identifies the medication that the transaction related to
+transaction,All machine transaction information. These are any actions taken on the machine (ADC).,transaction_quantity,"quantity issued (+ qty = taken from machine, - qty = put into machine)"
+transaction,All machine transaction information. These are any actions taken on the machine (ADC).,quantity_on_hand,quantity on hand in the machine at the time of the transaction after it occurred
+transaction,All machine transaction information. These are any actions taken on the machine (ADC).,restock_id,internal restock event ID
+transaction_type,Dictionary table defining transaction types.,technical_id,internal table ID
+transaction_type,Dictionary table defining transaction types.,transaction_type,"type of transaction performed on the machine, abbreviated"
+transaction_type,Dictionary table defining transaction types.,transaction_type_action,written description of transaction that was performed on the machine

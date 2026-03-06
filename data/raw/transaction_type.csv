@@ -1,0 +1,24 @@
+technical_id,transaction_type,transaction_type_action
+1,A,Inactive Access
+2,B,Bedside
+3,C,Cycle Count
+4,D,Discrepancy
+5,E,Emergency
+6,F,Dispensing Error
+7, G,Pick
+8,I,Issue
+9,K,Destock
+10,L,Receive
+11,M,Modify Bin
+12,N,Null
+13,O,Supplemental Restock
+14,P ,Chargeable Procedure
+15,Q,Discrepancy Resolution
+16,R,Return
+17,S,Restock
+18,T,Transfer
+19,U,Return to Pharmacy
+20,V,Event
+21,W ,Waste
+22,X,Expired
+23,Z,Reconciliation Reason
