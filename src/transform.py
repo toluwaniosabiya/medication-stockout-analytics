@@ -96,4 +96,14 @@ def build_final_table(tables: dict[str, pd.DataFrame]) -> pd.DataFrame:
 
     df = df[desired_columns]
 
+    ##### Further transformation from notebook logic ####
+    # 1) Change data type of datetime column to datetime
+    df["datetime"] = pd.to_datetime(df["datetime"].astype("str").str[:14])
+
+    # 2) drop rows with year value of 1970 from the datetime column
+    df = df.drop(df.loc[df["datetime"].dt.year == 1970].index)
+
+    # 3) Change 2025 to 2022. This was a data input error
+    df["datetime"] = pd.to_datetime(df["datetime"].dt.strftime("2022-%m-%d %H:%M:%S"))
+
     return df
