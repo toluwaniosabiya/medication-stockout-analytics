@@ -1,2 +1,5 @@
-/venv
-.mypy_cache
+.venv/
+venv/
+env/
+.mypy_cache/
+test.py

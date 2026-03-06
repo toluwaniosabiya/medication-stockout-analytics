@@ -21,3 +21,71 @@ def standardize_tables(tables: dict[str, pd.DataFrame]) -> dict[str, pd.DataFram
         standardized_tables[name] = standardize_column_names(df)
 
     return standardized_tables
+
+
+def build_final_table(tables: dict[str, pd.DataFrame]) -> pd.DataFrame:
+
+    transaction = tables["transaction"][
+        [
+            "transaction_id",
+            "datetime",
+            "transaction_type",
+            "hospital_id",
+            "hospital_ward_id",
+            "medication_id",
+            "transaction_quantity",
+            "quantity_on_hand",
+        ]
+    ]
+
+    transaction_type = tables["transaction_type"][
+        ["transaction_type", "transaction_type_action"]
+    ]
+
+    medication = tables["medication"][["medication_id", "medication"]]
+
+    # machine = tables["machine"]
+
+    hospital = tables["hospital"][["hospital_id", "hospital_name"]]
+
+    hospital_ward = tables["hospital_ward"][["hospital_ward_id", "hospital_ward_name"]]
+
+    # Join transaction → transaction type
+    df = transaction.merge(transaction_type, on="transaction_type", how="left")
+
+    # Join medication
+    df = df.merge(medication, on="medication_id", how="left")
+
+    # # Join machine
+    # df = df.merge(machine, on="machine_id", how="left")
+
+    # Join hospital
+    df = df.merge(hospital, on="hospital_id", how="left")
+
+    # Join ward
+    df = df.merge(hospital_ward, on="hospital_ward_id", how="left")
+
+    # Create a list of desired columns from the identified relevant columns
+    desired_columns = [
+        "transaction_id",
+        "datetime",
+        "transaction_type",
+        "transaction_type_action",
+        "transaction_quantity",
+        "quantity_on_hand",
+        "medication_id",
+        "medication",
+        "hospital_id",
+        "hospital_name",
+        "hospital_ward_id",
+        "hospital_ward_name",
+        # "machine_id",
+        # "machine_identifier",
+        # "machine_name",
+        # "machine_type",
+        # "hospital_id",
+    ]
+
+    df = df[desired_columns]
+
+    return df
