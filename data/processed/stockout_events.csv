@@ -1,0 +1,30 @@
+transaction_id,datetime,transaction_type,transaction_type_action,transaction_quantity,quantity_on_hand,medication_id,medication,hospital_id,hospital_name,hospital_ward_id,hospital_ward_name
+39,2022-10-18 02:23:23,V,Event,1.0,0,1030895,fentaNYL/bupi 3mcg/1ml 250ml bag,2,St Joseph's,43,RX
+109,2022-10-18 04:06:52,G,Pick,0.0,0,1022496,piperacillin/tazobactam (ZOSYN),2,St Joseph's,43,RX
+118,2022-10-18 04:11:18,V,Event,1.0,0,1036505,morphine 30mg/30ml 30ml syringe,2,St Joseph's,43,RX
+158,2022-10-18 05:14:02,I,Issue,1.0,0,1037480,fentaNYL 100mCg/2ml 2ml vial,2,St Joseph's,84,7S
+239,2022-10-18 07:13:24,V,Event,3.0,0,1031005,amphetamine/dexamphe 10mg tablet,2,St Joseph's,43,RX
+241,2022-10-18 07:13:56,I,Issue,1.0,0,984614,rsi/transport (pediatric 1ea box,2,St Joseph's,68,PICU
+244,2022-10-18 07:14:37,V,Event,1.0,0,1030839,ketamine (KET 50mg/1ml 10ml RFID,2,St Joseph's,43,RX
+294,2022-10-18 07:30:00,G,Pick,0.0,0,1033346,b 100000units/500ml 500ml bottle,2,St Joseph's,644799,OR_RX
+309,2022-10-18 07:34:14,I,Issue,1.0,0,969670,midazolam (VERS 2mg/2ml 2ml vial,2,St Joseph's,12,OR
+374,2022-10-18 07:47:02,V,Event,2.0,0,1036770,fentaNYL 100mCg/2ml 2ml RFID,2,St Joseph's,43,RX
+491,2022-10-18 08:19:08,V,Event,3.0,0,1039082,methylphenidate 10mg tablet,2,St Joseph's,43,RX
+504,2022-10-18 08:20:19,V,Event,16.0,0,1038475,HYDROmorphone 2mg/1ml 1ml vial,2,St Joseph's,43,RX
+505,2022-10-18 08:22:17,V,Event,15.0,0,1036871,fentaNYL 100mCg/2ml 2ml vial,2,St Joseph's,43,RX
+510,2022-10-18 08:23:01,G,Pick,0.0,0,1042945,oxyCODONE oral conc,2,St Joseph's,43,RX
+542,2022-10-18 08:30:23,V,Event,1.0,0,1031005,amphetamine/dexamphe 10mg tablet,2,St Joseph's,43,RX
+607,2022-10-18 08:38:27,V,Event,15.0,0,1030977,HYDROcodone/acetamino 1ea tablet,2,St Joseph's,43,RX
+620,2022-10-18 08:40:36,V,Event,10.0,0,1039297,morphine PF 1mg/1ml 10ml ampule,2,St Joseph's,43,RX
+685,2022-10-18 09:05:15,V,Event,0.0,0,1037543,cefepime 2gm duplex,2,St Joseph's,43,RX
+730,2022-10-18 13:36:44,I,Issue,1.0,0,1027188,ondansetron 4mg/2ml 2ml vial,2,St Joseph's,644797,OPO
+746,2022-10-18 13:38:49,I,Issue,1.0,0,1021272,phenyleph 0.1mg/1ml 10ml syringe,2,St Joseph's,12,OR
+876,2022-10-18 14:31:51,V,Event,0.0,0,1038984,rifAXIMin 550mg tablet,2,St Joseph's,43,RX
+954,2022-10-18 15:08:39,V,Event,0.0,0,1022496,piperacillin/tazobactam (ZOSYN),2,St Joseph's,43,RX
+955,2022-10-18 15:08:39,V,Event,0.0,0,1022496,piperacillin/tazobactam (ZOSYN),2,St Joseph's,43,RX
+956,2022-10-18 15:08:39,V,Event,0.0,0,1022496,piperacillin/tazobactam (ZOSYN),2,St Joseph's,43,RX
+957,2022-10-18 15:08:39,V,Event,0.0,0,1022496,piperacillin/tazobactam (ZOSYN),2,St Joseph's,43,RX
+958,2022-10-18 15:08:39,G,Pick,0.0,0,1022496,piperacillin/tazobactam (ZOSYN),2,St Joseph's,43,RX
+975,2022-10-18 15:13:19,G,Pick,1.0,0,1037695,cefotaxime 1000mg vial,2,St Joseph's,43,RX
+977,2022-10-18 15:13:19,V,Event,1.0,0,1037696,cefotaxime 1000mg vial,2,St Joseph's,43,RX
+994,2022-10-18 15:18:27,V,Event,25.0,0,970015,HYDROcodone/acetamino 1ea tablet,2,St Joseph's,43,RX

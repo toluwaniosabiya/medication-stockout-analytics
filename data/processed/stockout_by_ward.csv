@@ -1,0 +1,22 @@
+hospital_ward_name,medication,count
+RX,piperacillin/tazobactam (ZOSYN),6
+RX,cefotaxime 1000mg vial,2
+RX,HYDROcodone/acetamino 1ea tablet,2
+RX,amphetamine/dexamphe 10mg tablet,2
+RX,fentaNYL 100mCg/2ml 2ml vial,1
+RX,oxyCODONE oral conc,1
+RX,morphine PF 1mg/1ml 10ml ampule,1
+RX,morphine 30mg/30ml 30ml syringe,1
+RX,methylphenidate 10mg tablet,1
+RX,ketamine (KET 50mg/1ml 10ml RFID,1
+RX,fentaNYL/bupi 3mcg/1ml 250ml bag,1
+7S,fentaNYL 100mCg/2ml 2ml vial,1
+RX,fentaNYL 100mCg/2ml 2ml RFID,1
+OPO,ondansetron 4mg/2ml 2ml vial,1
+RX,cefepime 2gm duplex,1
+RX,HYDROmorphone 2mg/1ml 1ml vial,1
+PICU,rsi/transport (pediatric 1ea box,1
+OR_RX,b 100000units/500ml 500ml bottle,1
+OR,phenyleph 0.1mg/1ml 10ml syringe,1
+OR,midazolam (VERS 2mg/2ml 2ml vial,1
+RX,rifAXIMin 550mg tablet,1
