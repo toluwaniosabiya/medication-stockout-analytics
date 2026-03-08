@@ -45,6 +45,7 @@ st.write("")
 st.write("")
 med_ward_container = st.container(border=True)
 with med_ward_container:
+    st.markdown("### Stockout Trends")
     top_medications = get_top_medications(stockout_df)
     top_wards = get_top_wards(stockout_df)
 
