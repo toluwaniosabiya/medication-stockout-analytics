@@ -50,10 +50,17 @@ Allows users to select a ward and view:
 Example:
 
 ![Overview](assets/screenshots/overview.png)
+The dashboard allows the user to get a quick overview of the total stockout events, the number of wards that are affected and the number of medications affected.
+
+---
 
 ![Medication Stockouts](assets/screenshots/stockout_trends.png)
+The dashboard also allows the user get more information about the top ten (10) list of medications stocking out as well as the most prevalent wards in which stockouts are happening.
+
+---
 
 ![Ward Explorer](assets/screenshots/ward_explorer.png)
+Finally, the dashboard provides a dynamic interaction where the user can drill down into any particular ward and see the actual medications stocking out and the frequency of such occurence in that ward.
 
 ---
 
