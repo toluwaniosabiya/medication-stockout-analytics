@@ -6,6 +6,8 @@ Hospital medication stockouts can negatively impact patient care and hospital op
 
 The dashboard enables healthcare operations teams to quickly understand stockout patterns and investigate specific wards where medication availability issues arise.
 
+This will reduce disruptions to patient care and support inventory decisions
+
 ---
 
 ## User Story
