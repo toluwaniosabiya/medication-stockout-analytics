@@ -1,0 +1,1001 @@
+transaction_id,datetime,transaction_type,transaction_type_action,transaction_quantity,quantity_on_hand,medication_id,medication,hospital_id,hospital_name,hospital_ward_id,hospital_ward_name
+1,2022-10-18 00:05:55,V,Event,0.0,46,997741,nadolol (CORGARD) 40mg tablet,2,St Joseph's,43,RX
+2,2025-10-18 00:07:13,R,Return,-2.0,9,1025890,bisacodyl (DULCOLAX) 5mg tablet,2,St Joseph's,62,3P1
+3,2022-10-18 00:07:18,I,Issue,1.0,13,1022831,meropenem Vial2Bag 500mg,2,St Joseph's,58,2NE
+4,2022-10-18 00:07:30,I,Issue,1.0,2,1036923,fentaNYL 100mCg/2ml 2ml vial,2,St Joseph's,4,JOINT
+5,2022-10-18 00:07:32,I,Issue,4.0,11,1038449,oxyCODONE IR 5mg tablet,2,St Joseph's,82,7TN
+6,2022-10-18 00:08:18,I,Issue,1.0,5,1039897,zolpidem 5mg tablet,2,St Joseph's,81,6TN
+7,2022-10-18 01:48:39,K,Destock,1.0,1,1022589,peg-electrolyte 4000ml bottle,2,St Joseph's,43,RX
+8,2022-10-18 01:48:55,I,Issue,1.0,17,1003321,ibuprofen (ADVIL) 400mg tablet,2,St Joseph's,25,BP
+9,2022-10-18 01:49:06,S,Restock,-15.0,15,1014937,morphine 2mg/1ml 1ml syringe,2,St Joseph's,81,6TN
+10,2022-10-18 01:50:32,I,Issue,1.0,11,991647,ibuprofen (ADVIL) 600mg tablet,2,St Joseph's,25,BP
+11,2022-10-18 01:51:05,I,Issue,1.0,4,1018699,haloperidol 5mg/1ml 1ml ampule,2,St Joseph's,5,6W
+12,2022-10-18 01:52:02,I,Issue,1.0,10,1015118,morphine 2mg/1ml 1ml syringe,2,St Joseph's,84,7S
+13,2022-10-18 01:56:51,S,Restock,-15.0,15,1019361,morphine 2mg/1ml 1ml syringe,2,St Joseph's,80,5TN
+14,2022-10-18 01:58:33,I,Issue,1.0,16,989950,Lactated Ringer's 1000ml bag,2,St Joseph's,84,7S
+15,2022-10-18 01:58:34,I,Issue,1.0,22,1016630,heparin 10units/1ml 5ml syringe,2,St Joseph's,24,NICU
+16,2022-10-18 01:59:24,R,Return,-1.0,0,1030764,LORazepam (ATIV 2mg/1ml 1ml vial,2,St Joseph's,58,2NE
+17,2022-10-18 02:00:44,I,Issue,1.0,8,1023189,heparin 10units/1ml 5ml syringe,2,St Joseph's,51,5W
+18,2022-10-18 02:01:46,I,Issue,1.0,18,1029517,propofol ( 10mg/1ml 100ml bottle,2,St Joseph's,58,2NE
+19,2022-10-18 02:02:25,I,Issue,1.0,17,989023,he 5000units/0.5ml 0.5ml syringe,2,St Joseph's,18,CICU12
+20,2022-10-18 02:03:13,I,Issue,1.0,29,986765,pediatric multiple 0.5ml syringe,2,St Joseph's,24,NICU
+21,2022-10-18 02:03:19,I,Issue,1.0,20,986016,heparin 10units/1ml 5ml syringe,2,St Joseph's,68,PICU
+22,2022-10-18 02:03:29,I,Issue,1.0,73438,984285,.patient's other medications,2,St Joseph's,80,5TN
+23,2022-10-18 02:04:15,I,Issue,1.0,7,1037680,fentaNYL 100mCg/2ml 2ml vial,2,St Joseph's,58,2NE
+24,2022-10-18 02:05:16,I,Issue,1.0,61126,984353,.patient's other medications,2,St Joseph's,84,7S
+25,2022-10-18 02:07:15,I,Issue,1.0,11,1044629,ketorolac 30mg/1ml 1ml vial,2,St Joseph's,84,7S
+26,2022-10-18 02:07:47,I,Issue,1.0,7,1028529,morphine 2mg/1ml 1ml syringe,2,St Joseph's,62,3P1
+27,2022-10-18 02:07:47,I,Issue,1.0,6,1038139,tiZANidine 2mg tablet,2,St Joseph's,644795,4W SPINE
+28,2022-10-18 02:07:51,S,Restock,-1.0,1,1034488,fentaNYL 1000mcg/100ml 100ml bag,2,St Joseph's,36,EMD
+29,2022-10-18 02:07:53,I,Issue,1.0,10,1013881,diphenhydrAMINE (BE 25mg capsule,2,St Joseph's,84,7S
+30,2022-10-18 02:08:20,I,Issue,1.0,3,1036356,OLANZapine ODT 5mg tablet,2,St Joseph's,644795,4W SPINE
+31,2022-10-18 02:08:29,W,Waste,0.5,0,1036782,fentaNYL 100mCg/2ml 2ml vial,2,St Joseph's,36,EMD
+32,2022-10-18 02:09:10,W,Waste,1.0,0,1036782,fentaNYL 100mCg/2ml 2ml vial,2,St Joseph's,36,EMD
+33,2022-10-18 02:09:10,I,Issue,1.0,4,1039345,methylPREDNIS 125mg/2ml 2ml vial,2,St Joseph's,36,EMD
+34,2022-10-18 02:09:11,W,Waste,0.75,0,1020842,LORazepam (ATIV 2mg/1ml 1ml vial,2,St Joseph's,36,EMD
+35,2022-10-18 02:09:12,N,Null,0.0,0,1008724,Main Zone 1,2,St Joseph's,43,RX
+36,2022-10-18 02:11:09,W,Waste,1.0,0,1036948,fentaNYL 100mCg/2ml 2ml vial,2,St Joseph's,4,JOINT
+37,2022-10-18 02:22:48,I,Issue,4.0,4,1038272,ALPRAZolam 0.5mg tablet,2,St Joseph's,644795,4W SPINE
+38,2022-10-18 02:23:23,G,Pick,1.0,26,1030894,fentaNYL/bupi 3mcg/1ml 250ml bag,2,St Joseph's,43,RX
+39,2022-10-18 02:23:23,V,Event,1.0,0,1030895,fentaNYL/bupi 3mcg/1ml 250ml bag,2,St Joseph's,43,RX
+40,2022-10-18 02:23:37,I,Issue,1.0,14,1043547,fenofibrate microniz 48mg tablet,2,St Joseph's,81,6TN
+41,2022-10-18 02:23:40,K,Destock,1.0,3,1020822,propofol ( 10mg/1ml 100ml bottle,2,St Joseph's,36,EMD
+42,2022-10-18 02:24:46,I,Issue,1.0,2,1026874,haloperidol 5mg/1ml 1ml ampule,2,St Joseph's,64,4P1
+43,2022-10-18 02:25:46,I,Issue,1.0,76525,984094,.patient's other medications,2,St Joseph's,81,6TN
+44,2022-10-18 02:26:03,I,Issue,1.0,60,1028951,docusate sodium 100mg capsule,2,St Joseph's,81,6TN
+45,2022-10-18 02:26:08,I,Issue,3.0,4,1034552,albuterol 2.5mg/3ml 3ml nebule,2,St Joseph's,36,EMD
+46,2022-10-18 02:26:27,I,Issue,1.0,6,1038137,acetaminophe 10mg/1mL 100mL vial,2,St Joseph's,18,CICU12
+47,2022-10-18 02:26:27,I,Issue,1.0,8,1040591,warfarin 7.5mg tablet,2,St Joseph's,81,6TN
+48,2022-10-18 02:27:44,I,Issue,1.0,14,1030230,clonazePAM 0.5mg tablet,2,St Joseph's,64,4P1
+49,2022-10-18 02:37:35,G,Pick,1.0,37,1037586,vitamin B-12 250mCg SPLITab,2,St Joseph's,43,RX
+50,2022-10-18 02:37:42,G,Pick,0.0,21,1012651,latanoprost 0.005% op 5ml bottle,2,St Joseph's,43,RX
+51,2022-10-18 02:38:02,V,Event,1.0,68,1025708,timolol 0.5% ophth 5ml bottle,2,St Joseph's,43,RX
+52,2022-10-18 02:38:02,G,Pick,1.0,68,1032650,timolol 0.5% ophth 5ml bottle,2,St Joseph's,43,RX
+53,2022-10-18 02:38:10,V,Event,0.0,67,985208,heparin 1 1000units/1ml 1ml vial,2,St Joseph's,43,RX
+54,2022-10-18 02:38:17,V,Event,0.0,13,1019376,pipera 4.5gm/100mL 100mL UNFZNPB,2,St Joseph's,43,RX
+55,2022-10-18 02:38:17,G,Pick,0.0,13,1019377,pipera 4.5gm/100mL 100mL UNFZNPB,2,St Joseph's,43,RX
+56,2022-10-18 02:39:03,C,Cycle Count,48.0,48,1028836,dofetilide 125mCg CAPSULE,2,St Joseph's,43,RX
+57,2022-10-18 02:40:06,N,Null,0.0,9,1009248,saline 45ml bottle,2,St Joseph's,43,RX
+58,2022-10-18 02:40:11,V,Event,1.0,8,985192,saline 45ml bottle,2,St Joseph's,43,RX
+59,2022-10-18 02:40:12,G,Pick,1.0,8,1009248,saline 45ml bottle,2,St Joseph's,43,RX
+60,2022-10-18 02:41:03,U,Return to Pharmacy,-2.0,115,1035661,losartan potassium 50mg tablet,2,St Joseph's,43,RX
+61,2022-10-18 02:41:16,U,Return to Pharmacy,-1.0,49,1038008,ALPRAZolam 0.25mg tablet,2,St Joseph's,43,RX
+62,2022-10-18 02:41:40,U,Return to Pharmacy,-1.0,32,1026361,ondansetron 4mg/2ml 2ml vial,2,St Joseph's,43,RX
+63,2022-10-18 02:41:43,G,Pick,0.0,28,1009143,lidocaine 2% viscous 20ml cup,2,St Joseph's,43,RX
+64,2022-10-18 02:41:43,V,Event,0.0,28,989921,lidocaine 2% viscous 20ml cup,2,St Joseph's,43,RX
+65,2022-10-18 02:41:51,U,Return to Pharmacy,-1.0,118,1009799,fosinopril (MONOPRIL 20mg tablet,2,St Joseph's,43,RX
+66,2022-10-18 02:43:01,U,Return to Pharmacy,-1.0,19,1043744,Digoxin 0.0625mg SPLITab,2,St Joseph's,43,RX
+67,2022-10-18 02:43:04,I,Issue,1.0,29,990154,0.9% sodium chloride 1000ml bag,2,St Joseph's,80,5TN
+68,2022-10-18 02:43:14,I,Issue,1.0,10,1037720,hepatitis 5mcg/0.5ml 0.5ml vial,2,St Joseph's,24,NICU
+69,2022-10-18 02:43:23,U,Return to Pharmacy,-1.0,250,1036235,lisinopril 10mg tablet,2,St Joseph's,43,RX
+70,2022-10-18 02:43:40,U,Return to Pharmacy,-1.0,28,1008894,prasugrel (EFFIENT) 10mg tablet,2,St Joseph's,43,RX
+71,2022-10-18 02:43:55,U,Return to Pharmacy,-1.0,10,1040063,guanFACINE CR 1mg tablet,2,St Joseph's,43,RX
+72,2022-10-18 02:44:28,U,Return to Pharmacy,-4.0,126,1044636,isosorbide dinitrate 20mg tablet,2,St Joseph's,43,RX
+73,2022-10-18 02:57:27,I,Issue,1.0,11,1031489,nicotine 14mg patch,2,St Joseph's,62,3P1
+74,2022-10-18 02:59:01,I,Issue,2.0,27,1026435,ondansetron ODT 4mg tablet,2,St Joseph's,36,EMD
+75,2022-10-18 02:59:19,I,Issue,6.0,6,1045065,HYDROmorphone 8mg tablet,2,St Joseph's,81,6TN
+76,2022-10-18 03:01:02,I,Issue,1.0,9,1003625,ampicillin (OMNIPEN) 500mg vial,2,St Joseph's,24,NICU
+77,2022-10-18 03:01:09,I,Issue,1.0,12,1018285,heparin 1unit/1mL 5mL syringe,2,St Joseph's,24,NICU
+78,2022-10-18 03:04:15,I,Issue,1.0,27,990154,0.9% sodium chloride 1000ml bag,2,St Joseph's,80,5TN
+79,2022-10-18 03:50:48,I,Issue,1.0,17,1020046,meropenem Vial2Bag 500mg,2,St Joseph's,81,6TN
+80,2022-10-18 03:51:00,G,Pick,1.0,521,1012739,spironolactone (ALDA 25mg tablet,2,St Joseph's,43,RX
+81,2022-10-18 03:51:16,V,Event,2.0,402,1019802,vitamin D 1000units tablet,2,St Joseph's,43,RX
+82,2022-10-18 03:51:16,G,Pick,2.0,402,1019546,vitamin D 1000units tablet,2,St Joseph's,43,RX
+83,2022-10-18 03:51:42,N,Null,0.0,235,1009123,carbidopa-levodopa 25 1ea tablet,2,St Joseph's,43,RX
+84,2022-10-18 03:52:15,G,Pick,1.0,132,1039164,QUEtiapine 100mg tablet,2,St Joseph's,43,RX
+85,2022-10-18 03:55:22,I,Issue,1.0,18,990048,0.9% sodium chloride 1000ml bag,2,St Joseph's,84,7S
+86,2022-10-18 03:56:47,I,Issue,1.0,6,1037278,fentaNYL 100mCg/2ml 2ml vial,2,St Joseph's,36,EMD
+87,2022-10-18 03:56:58,I,Issue,1.0,16,1012254,0.9% sodium chloride 1000ml bag,2,St Joseph's,36,EMD
+88,2022-10-18 03:57:02,I,Issue,1.0,19,1026331,ondansetron 4mg/2ml 2ml vial,2,St Joseph's,36,EMD
+89,2022-10-18 03:57:11,I,Issue,1.0,26,1038206,dexmedetom 4mCg/1ml 100mL bottle,2,St Joseph's,58,2NE
+90,2022-10-18 03:57:55,G,Pick,1.0,101,1008925,fenofibrate 160mg TABLET,2,St Joseph's,43,RX
+91,2022-10-18 03:58:18,V,Event,1.0,119,1038234,olmesartan 20mg tablet,2,St Joseph's,43,RX
+92,2022-10-18 03:59:56,I,Issue,1.0,25,1038206,dexmedetom 4mCg/1ml 100mL bottle,2,St Joseph's,58,2NE
+93,2022-10-18 04:00:13,I,Issue,1.0,34,1023002,0.9% sodium chloride 1000ml bag,2,St Joseph's,62,3P1
+94,2022-10-18 04:00:24,I,Issue,1.0,9,1037059,fentaNYL 100mCg/2ml 2ml vial,2,St Joseph's,4,JOINT
+95,2022-10-18 04:00:32,I,Issue,1.0,13,1035211,albuterol 2.5mg/3ml 3ml nebule,2,St Joseph's,68,PICU
+96,2022-10-18 04:01:45,D,Discrepancy,-49.0,58,1036856,diltia 100mg/100mL 100mL ADV PBK,2,St Joseph's,43,RX
+97,2022-10-18 04:01:45,C,Cycle Count,58.0,58,1036856,diltia 100mg/100mL 100mL ADV PBK,2,St Joseph's,43,RX
+98,2022-10-18 04:02:27,D,Discrepancy,-39.0,39,1038336,ertapenem 1gm/50mL 50mL ADD PBK,2,St Joseph's,43,RX
+99,2022-10-18 04:02:27,C,Cycle Count,39.0,39,1038336,ertapenem 1gm/50mL 50mL ADD PBK,2,St Joseph's,43,RX
+100,2022-10-18 04:02:43,D,Discrepancy,-18.0,25,1036704,cefuroxi 1.5gm/50mL 50mL ADD PBK,2,St Joseph's,43,RX
+101,2022-10-18 04:02:43,C,Cycle Count,25.0,25,1036704,cefuroxi 1.5gm/50mL 50mL ADD PBK,2,St Joseph's,43,RX
+102,2022-10-18 04:04:07,N,Null,0.0,120,1038075,metoprolol ta 5mg/5ml 5ml ampule,2,St Joseph's,43,RX
+103,2022-10-18 04:04:12,V,Event,1.0,118,1038060,metoprolol ta 5mg/5ml 5ml ampule,2,St Joseph's,43,RX
+104,2022-10-18 04:04:12,G,Pick,2.0,118,1038075,metoprolol ta 5mg/5ml 5ml ampule,2,St Joseph's,43,RX
+105,2022-10-18 04:04:10,I,Issue,1.0,12,1020026,meropenem Vial2Bag 500mg,2,St Joseph's,84,7S
+106,2022-10-18 04:04:12,I,Issue,1.0,20,1020034,meropenem Vial2Bag 500mg,2,St Joseph's,62,3P1
+107,2022-10-18 04:04:36,V,Event,1.0,176,989452,he 5000units/0.5ml 0.5ml syringe,2,St Joseph's,43,RX
+108,2022-10-18 04:04:39,W,Waste,0.5,0,1036761,fentaNYL 100mCg/2ml 2ml vial,2,St Joseph's,64,4P1
+109,2022-10-18 04:06:52,G,Pick,0.0,0,1022496,piperacillin/tazobactam (ZOSYN),2,St Joseph's,43,RX
+110,2022-10-18 04:07:43,G,Pick,0.0,142,1038492,insulin asp 100units/1ml 3ml pen,2,St Joseph's,43,RX
+111,2022-10-18 04:07:57,D,Discrepancy,1.0,14,1012282,ceftaroline 600mg VIAL,2,St Joseph's,43,RX
+112,2022-10-18 04:07:57,C,Cycle Count,14.0,14,1012282,ceftaroline 600mg VIAL,2,St Joseph's,43,RX
+113,2022-10-18 04:08:00,V,Event,0.0,14,1005894,ceftaroline 600mg VIAL,2,St Joseph's,43,RX
+114,2022-10-18 04:08:21,I,Issue,1.0,76524,984094,.patient's other medications,2,St Joseph's,81,6TN
+115,2022-10-18 04:08:46,I,Issue,1.0,953464,984256,.patient's other medications,2,St Joseph's,84,7S
+116,2022-10-18 04:10:10,I,Issue,2.0,34,1030535,acetaminophen 325mg tablet,2,St Joseph's,62,3P1
+117,2022-10-18 04:11:18,G,Pick,1.0,73,1036504,morphine 30mg/30ml 30ml syringe,2,St Joseph's,43,RX
+118,2022-10-18 04:11:18,V,Event,1.0,0,1036505,morphine 30mg/30ml 30ml syringe,2,St Joseph's,43,RX
+119,2022-10-18 04:13:04,I,Issue,1.0,27,1039115,oxyCODONE IR 5mg tablet,2,St Joseph's,25,BP
+120,2022-10-18 04:15:59,W,Waste,0.75,0,1036965,fentaNYL 100mCg/2ml 2ml vial,2,St Joseph's,58,2NE
+121,2022-10-18 04:22:40,R,Return,-1.0,79659,985282,.patient's other medications,2,St Joseph's,64,4P1
+122,2022-10-18 04:23:33,R,Return,-1.0,76525,984094,.patient's other medications,2,St Joseph's,81,6TN
+123,2022-10-18 04:24:49,I,Issue,2.0,9,982421,HYDROcodone/acetamino 1ea tablet,2,St Joseph's,82,7TN
+124,2022-10-18 04:25:18,I,Issue,1.0,9,985157,lanolin ointment 0.3oz tube tube,2,St Joseph's,25,BP
+125,2022-10-18 04:25:23,I,Issue,1.0,16,1003321,ibuprofen (ADVIL) 400mg tablet,2,St Joseph's,25,BP
+126,2022-10-18 04:27:31,I,Issue,1.0,72,986497,sucrose solution oral 2mL vial,2,St Joseph's,24,NICU
+127,2022-10-18 04:30:03,N,Null,0.0,0,1008809,Main Zone 0,2,St Joseph's,43,RX
+128,2022-10-18 04:32:09,I,Issue,1.0,72914,984145,.patient's other medications,2,St Joseph's,80,5TN
+129,2022-10-18 04:32:42,I,Issue,1.0,23,1038901,oxyCODONE IR 5mg tablet,2,St Joseph's,76,PREPOST
+130,2022-10-18 04:34:31,I,Issue,1.0,85,986959,sucrose solution oral 2mL vial,2,St Joseph's,24,NICU
+131,2022-10-18 04:35:17,I,Issue,1.0,6,1028529,morphine 2mg/1ml 1ml syringe,2,St Joseph's,62,3P1
+132,2022-10-18 04:35:59,G,Pick,1.0,165,1009170,indomethacin (INDOC 50mg capsule,2,St Joseph's,43,RX
+133,2022-10-18 04:36:27,I,Issue,1.0,8,974930,HYDROcodone/acetamino 1ea tablet,2,St Joseph's,25,BP
+134,2022-10-18 04:36:48,G,Pick,2.0,64,1008911,colchicine 0.6mg tablet,2,St Joseph's,43,RX
+135,2022-10-18 04:37:05,I,Issue,1.0,23,1017749,0.9% sodium chloride 1000ml bag,2,St Joseph's,36,EMD
+136,2022-10-18 04:38:00,I,Issue,10.0,1681,1038440,insulin r 100units/1ml 10ml vial,2,St Joseph's,36,EMD
+137,2022-10-18 04:38:18,I,Issue,1.0,1,1004381,morphine or 0.4mg/1mL 0.5mL each,2,St Joseph's,24,NICU
+138,2022-10-18 04:39:56,W,Waste,0.82,0,995945,morphine or 0.4mg/1mL 0.5mL each,2,St Joseph's,24,NICU
+139,2022-10-18 04:40:06,R,Return,-1.0,0,1039108,oxyCODONE IR 5mg tablet,2,St Joseph's,76,PREPOST
+140,2022-10-18 04:41:54,I,Issue,1.0,5,1038026,ALPRAZolam 0.25mg tablet,2,St Joseph's,81,6TN
+141,2022-10-18 04:42:28,I,Issue,1.0,2,1021997,dextrose 40% (glucose 15gm tube,2,St Joseph's,80,5TN
+142,2022-10-18 04:42:51,I,Issue,2.0,14,1021508,morphine 2mg/1ml 1ml syringe,2,St Joseph's,36,EMD
+143,2022-10-18 04:43:37,I,Issue,1.0,2,1037359,fentaNYL 100mCg/2ml 2ml vial,2,St Joseph's,62,3P1
+144,2022-10-18 04:45:16,C,Cycle Count,76.0,76,1009143,lidocaine 2% viscous 20ml cup,2,St Joseph's,43,RX
+145,2022-10-18 05:03:05,I,Issue,1.0,79658,985282,.patient's other medications,2,St Joseph's,64,4P1
+146,2022-10-18 05:04:45,I,Issue,1.0,95758,984882,.patient's other medications,2,St Joseph's,4,JOINT
+147,2022-10-18 05:04:53,I,Issue,1.0,4,1002737,5% dex in 0.9% NaCL 1000ml bag,2,St Joseph's,18,CICU12
+148,2022-10-18 05:05:10,V,Event,0.0,71,1038673,hydrALAZINE 20mg/1ml 1ml vial,2,St Joseph's,43,RX
+149,2022-10-18 05:05:11,G,Pick,0.0,71,1038674,hydrALAZINE 20mg/1ml 1ml vial,2,St Joseph's,43,RX
+150,2022-10-18 05:05:53,I,Issue,1.0,4,1017302,diphenhydrAMIN 50mg/1ml 1ml vial,2,St Joseph's,88,5E (YAC)
+151,2022-10-18 05:05:56,I,Issue,1.0,109692,984356,.patient's other medications,2,St Joseph's,644795,4W SPINE
+152,2022-10-18 05:06:05,G,Pick,1.0,6,1008863,ipratropium 17 mcg/pu 12.9gm mdi,2,St Joseph's,43,RX
+153,2022-10-18 05:06:20,V,Event,1.0,141,1038491,insulin asp 100units/1ml 3ml pen,2,St Joseph's,43,RX
+154,2022-10-18 05:06:20,G,Pick,1.0,141,1038492,insulin asp 100units/1ml 3ml pen,2,St Joseph's,43,RX
+155,2022-10-18 05:06:34,V,Event,1.0,41,1018489,levothyroxine (LEVOT 100mcg vial,2,St Joseph's,43,RX
+156,2022-10-18 05:09:21,I,Issue,1.0,36,990028,0.9% sodium chloride 1000ml bag,2,St Joseph's,80,5TN
+157,2022-10-18 05:13:08,I,Issue,1.0,16,1029517,propofol ( 10mg/1ml 100ml bottle,2,St Joseph's,58,2NE
+158,2022-10-18 05:14:02,I,Issue,1.0,0,1037480,fentaNYL 100mCg/2ml 2ml vial,2,St Joseph's,84,7S
+159,2022-10-18 05:14:19,I,Issue,1.0,79657,985282,.patient's other medications,2,St Joseph's,64,4P1
+160,2022-10-18 05:15:10,I,Issue,1.0,3,1022250,lidocaine/epinephrin 2ml syringe,2,St Joseph's,36,EMD
+161,2022-10-18 05:16:21,I,Issue,1.0,109691,984356,.patient's other medications,2,St Joseph's,644795,4W SPINE
+162,2022-10-18 05:17:29,I,Issue,1.0,13,1016270,HYDROcodone/acetamino 1ea tablet,2,St Joseph's,80,5TN
+163,2022-10-18 05:18:08,V,Event,2.0,370,1034324,albuter 2.5mg/0.5ml 0.5ml nebule,2,St Joseph's,43,RX
+164,2022-10-18 05:19:58,I,Issue,1.0,17,972160,HYDROcodone/acetamino 1ea tablet,2,St Joseph's,25,BP
+165,2022-10-18 05:21:04,R,Return,-1.0,57660,984135,.patient's other medications,2,St Joseph's,64,4P1
+166,2022-10-18 05:21:01,I,Issue,2.0,12,1042794,HYDROmorphone 2mg/1ml 1ml vial,2,St Joseph's,81,6TN
+167,2022-10-18 05:21:34,I,Issue,2.0,44,1030514,acetaminophen 325mg tablet,2,St Joseph's,5,6W
+168,2022-10-18 05:23:00,I,Issue,1.0,1,989607,glucagon 1mg/1ml 1ml vial,2,St Joseph's,80,5TN
+169,2022-10-18 05:23:18,V,Event,1.0,83,1038123,acetaminophe 10mg/1mL 100mL vial,2,St Joseph's,43,RX
+170,2022-10-18 05:24:32,G,Pick,1.0,57,1037064,EPINEPHrine 1mg/1ml 1ml ampule,2,St Joseph's,43,RX
+171,2022-10-18 05:24:32,V,Event,1.0,57,1036983,EPINEPHrine 1mg/1ml 1ml ampule,2,St Joseph's,43,RX
+172,2022-10-18 05:24:37,I,Issue,1.0,6,1028843,he 5000units/0.5ml 0.5ml syringe,2,St Joseph's,64,4P1
+173,2022-10-18 05:24:52,N,Null,0.0,12,1004244,melatonin 3mg tablet,2,St Joseph's,5,6W
+174,2022-10-18 05:25:36,I,Issue,1.0,26,1038541,pantoprazole 40mg tablet,2,St Joseph's,82,7TN
+175,2022-10-18 05:26:01,I,Issue,2.0,36,1034426,albuter 2.5mg/0.5ml 0.5ml nebule,2,St Joseph's,51,5W
+176,2022-10-18 05:26:21,I,Issue,1.0,16,982966,HYDROcodone/acetamino 1ea tablet,2,St Joseph's,82,7TN
+177,2022-10-18 05:26:36,I,Issue,1.0,16,1038709,pantoprazole 40mg tablet,2,St Joseph's,62,3P1
+178,2022-10-18 05:27:37,I,Issue,1.0,4,1037553,fentaNYL 100mCg/2ml 2ml vial,2,St Joseph's,84,7S
+179,2022-10-18 05:27:49,W,Waste,0.75,0,1036805,fentaNYL 100mCg/2ml 2ml vial,2,St Joseph's,84,7S
+180,2022-10-18 05:29:54,I,Issue,1.0,12,998307,cyclobenzaprine (FLE 10mg tablet,2,St Joseph's,64,4P1
+181,2022-10-18 05:40:54,K,Destock,1.0,0,975287,100000units/1000ml 1000ml bottle,2,St Joseph's,33,ANES
+182,2022-10-18 05:41:14,I,Issue,1.0,20,1038517,pantoprazole 40mg tablet,2,St Joseph's,80,5TN
+183,2022-10-18 05:41:28,I,Issue,2.0,2,1034782,levothyroxine (LEV 125mcg tablet,2,St Joseph's,80,5TN
+184,2022-10-18 05:41:37,I,Issue,1.0,7,989159,he 5000units/0.5ml 0.5ml syringe,2,St Joseph's,84,7S
+185,2022-10-18 05:42:19,I,Issue,1.0,2,1021583,enoxaparin 100mg/1ml 1ml syringe,2,St Joseph's,36,EMD
+186,2022-10-18 05:43:40,I,Issue,1.0,3,1001653,levothyroxine (LEVO 88mcg tablet,2,St Joseph's,80,5TN
+187,2022-10-18 05:44:09,I,Issue,1.0,10,991675,levothyroxine (LEV 100mcg tablet,2,St Joseph's,80,5TN
+188,2022-10-18 05:44:46,I,Issue,1.0,12,1033302,ondansetron ODT 4mg tablet,2,St Joseph's,4,JOINT
+189,2022-10-18 05:45:07,W,Waste,1.0,0,1036948,fentaNYL 100mCg/2ml 2ml vial,2,St Joseph's,4,JOINT
+190,2022-10-18 05:45:51,W,Waste,0.5,0,1042616,morphine oral 20mg/1mL 1mL each,2,St Joseph's,64,4P1
+191,2022-10-18 05:45:52,I,Issue,1.0,953461,984256,.patient's other medications,2,St Joseph's,84,7S
+192,2022-10-18 05:47:42,I,Issue,1.0,1,1014767,metoclopramide 10mg/2ml 2ml vial,2,St Joseph's,81,6TN
+193,2022-10-18 05:51:55,I,Issue,1.0,10,1038803,pantoprazole 20mg tablet,2,St Joseph's,82,7TN
+194,2022-10-18 05:52:45,I,Issue,1.0,60562,984306,.patient's other medications,2,St Joseph's,82,7TN
+195,2022-10-18 05:53:02,I,Issue,1.0,9,1038803,pantoprazole 20mg tablet,2,St Joseph's,82,7TN
+196,2022-10-18 05:53:35,I,Issue,1.0,10,1044668,ketorolac 30mg/1ml 1ml vial,2,St Joseph's,644797,OPO
+197,2022-10-18 05:53:40,I,Issue,1.0,28,1038552,pantoprazole 40mg tablet,2,St Joseph's,82,7TN
+198,2022-10-18 05:56:06,I,Issue,1.0,3,989940,0.9% sodium chloride 500ml bag,2,St Joseph's,36,EMD
+199,2022-10-18 05:56:21,I,Issue,1.0,82820,1000640,.patient's other medications,2,St Joseph's,82,7TN
+200,2022-10-18 05:57:40,I,Issue,1.0,16,1020046,meropenem Vial2Bag 500mg,2,St Joseph's,81,6TN
+201,2022-10-18 05:57:53,I,Issue,1.0,22,1038644,pantoprazole 40mg vial,2,St Joseph's,18,CICU12
+202,2022-10-18 05:58:30,I,Issue,1.0,76522,984094,.patient's other medications,2,St Joseph's,81,6TN
+203,2022-10-18 05:58:44,I,Issue,1.0,12,1020044,meropenem Vial2Bag 500mg,2,St Joseph's,81,6TN
+204,2022-10-18 05:59:20,I,Issue,1.0,20,1038540,pantoprazole 40mg tablet,2,St Joseph's,81,6TN
+205,2022-10-18 05:59:59,I,Issue,2.0,12,1021508,morphine 2mg/1ml 1ml syringe,2,St Joseph's,36,EMD
+206,2022-10-18 06:00:39,I,Issue,2.0,16,1028486,levothyroxine (LEVO 25mcg tablet,2,St Joseph's,62,3P1
+207,2022-10-18 06:01:06,I,Issue,1.0,8,1022608,diazepam (VALIUM) 5mg tablet,2,St Joseph's,644797,OPO
+208,2022-10-18 06:01:10,I,Issue,1.0,17,999092,levothyroxine (LEV 100mcg tablet,2,St Joseph's,32,VN 
+209,2022-10-18 06:01:32,I,Issue,1.0,20,969668,HYDROcodone/acetamino 1ea tablet,2,St Joseph's,4,JOINT
+210,2022-10-18 06:01:48,I,Issue,1.0,8,1044696,ketorolac 15mg/1ml 1ml syringe,2,St Joseph's,4,JOINT
+211,2022-10-18 06:01:59,V,Event,0.0,5948,985530,0.9% sodium chloride 100ml bag,2,St Joseph's,43,RX
+212,2022-10-18 06:01:59,V,Event,0.0,58,1034627,potassium c 40meq/20ml 20ml vial,2,St Joseph's,43,RX
+213,2022-10-18 06:01:59,G,Pick,0.0,58,1034626,potassium c 40meq/20ml 20ml vial,2,St Joseph's,43,RX
+214,2022-10-18 06:02:05,I,Issue,1.0,43,1043688,nicotine 2mg lozenge,2,St Joseph's,32,VN 
+215,2022-10-18 06:02:36,I,Issue,1.0,8,1038803,pantoprazole 20mg tablet,2,St Joseph's,82,7TN
+216,2022-10-18 06:02:55,I,Issue,1.0,97356,1039590,.patient's other medications,2,St Joseph's,62,3P1
+217,2022-10-18 06:07:51,I,Issue,1.0,9,1038723,pantoprazole 40mg tablet,2,St Joseph's,4,JOINT
+218,2022-10-18 06:08:08,I,Issue,1.0,12,1038704,pantoprazole 40mg vial,2,St Joseph's,80,5TN
+219,2022-10-18 06:08:07,I,Issue,1.0,4,1033523,levothyroxine (LEV 112mcg tablet,2,St Joseph's,62,3P1
+220,2022-10-18 06:09:45,I,Issue,1.0,8,1038723,pantoprazole 40mg tablet,2,St Joseph's,4,JOINT
+221,2022-10-18 06:09:58,I,Issue,1.0,29,1039330,pantoprazole 40mg tablet,2,St Joseph's,62,3P1
+222,2022-10-18 06:10:55,I,Issue,1.0,24,1015994,famotidine (PEPCID) 20mg tablet,2,St Joseph's,644795,4W SPINE
+223,2022-10-18 07:10:40,W,Waste,0.75,0,1020842,LORazepam (ATIV 2mg/1ml 1ml vial,2,St Joseph's,36,EMD
+224,1970-01-01 00:00:00,D,Discrepancy,5.0,4,1016415,5% dextrose in water 100ml bag,2,St Joseph's,644799,OR_RX
+225,2022-10-18 07:11:16,C,Cycle Count,4.0,4,1016415,5% dextrose in water 100ml bag,2,St Joseph's,644799,OR_RX
+226,2022-10-18 07:11:16,C,Cycle Count,4.0,4,1016415,5% dextrose in water 100ml bag,2,St Joseph's,644799,OR_RX
+227,2022-10-18 07:11:26,D,Discrepancy,14.0,8,1015755,0.9% sodium chloride 50ml bag,2,St Joseph's,644799,OR_RX
+228,2022-10-18 07:11:28,X,Expired,1.0,5,999348,DOBUTamine 2000mcg/1ml 250ml bag,2,St Joseph's,42,PACU
+229,2022-10-18 07:12:24,G,Pick,1.0,63,1038437,hydroxychloroquine 200mg tablet,2,St Joseph's,43,RX
+230,2022-10-18 07:12:23,I,Issue,1.0,22,1019526,gabapentin 300mg capsule,2,St Joseph's,76,PREPOST
+231,2022-10-18 07:12:44,X,Expired,3.0,0,1013402,LORazepam (ATIV 2mg/1ml 1ml vial,2,St Joseph's,42,PACU
+232,2022-10-18 07:13:00,D,Discrepancy,6.0,3,1016409,5% dextrose in water 250ml bag,2,St Joseph's,644799,OR_RX
+233,2022-10-18 07:13:00,C,Cycle Count,3.0,3,1016409,5% dextrose in water 250ml bag,2,St Joseph's,644799,OR_RX
+234,2022-10-18 07:13:07,X,Expired,4.0,1,1044266,nitroglycerin 2% UD ( 1gm packet,2,St Joseph's,42,PACU
+235,2022-10-18 07:13:11,I,Issue,1.0,54,1030354,ciprofloxacin 0.3% op 5ml bottle,2,St Joseph's,644794,ENT
+236,2022-10-18 07:13:29,V,Event,2.0,1978,1003870,topiramate (TOPAMAX) 25mg tablet,2,St Joseph's,43,RX
+237,2022-10-18 07:13:29,G,Pick,2.0,1978,1012740,topiramate (TOPAMAX) 25mg tablet,2,St Joseph's,43,RX
+238,2022-10-18 07:13:24,G,Pick,3.0,72,1034686,amphetamine/dexamphe 10mg tablet,2,St Joseph's,43,RX
+239,2022-10-18 07:13:24,V,Event,3.0,0,1031005,amphetamine/dexamphe 10mg tablet,2,St Joseph's,43,RX
+240,2022-10-18 07:13:53,X,Expired,2.0,2,1017425,methylergon 0.2mg/1ml 1ml ampule,2,St Joseph's,42,PACU
+241,2022-10-18 07:13:56,I,Issue,1.0,0,984614,rsi/transport (pediatric 1ea box,2,St Joseph's,68,PICU
+242,2022-10-18 07:14:28,I,Issue,1.0,75,1038077,albuterol-ipratropium 3ml nebule,2,St Joseph's,80,5TN
+243,2022-10-18 07:14:37,G,Pick,1.0,12,1035862,ketamine (KET 50mg/1ml 10ml RFID,2,St Joseph's,43,RX
+244,2022-10-18 07:14:37,V,Event,1.0,0,1030839,ketamine (KET 50mg/1ml 10ml RFID,2,St Joseph's,43,RX
+245,2022-10-18 07:14:49,N,Null,0.0,1614,1038602,insulin a 100Units/1ml 10ml vial,2,St Joseph's,42,PACU
+246,2022-10-18 07:16:01,N,Null,0.0,1,1034724,block emergency 1ea box,2,St Joseph's,76,PREPOST
+247,2022-10-18 07:16:06,W,Waste,0.5,0,1036839,fentaNYL 100mCg/2ml 2ml vial,2,St Joseph's,644795,4W SPINE
+248,2022-10-18 07:16:12,I,Issue,1.0,4,1039282,morphine PF 1mg/1ml 10ml ampule,2,St Joseph's,25,BP
+249,2022-10-18 07:16:20,I,Issue,1.0,5,1037080,fentaNYL 100mCg/2ml 2ml vial,2,St Joseph's,25,BP
+250,2022-10-18 07:16:19,W,Waste,0.25,0,1036839,fentaNYL 100mCg/2ml 2ml vial,2,St Joseph's,644795,4W SPINE
+251,2022-10-18 07:16:29,N,Null,0.0,22,973375,metoprolol succinate 50mg tablet,2,St Joseph's,76,PREPOST
+252,2022-10-18 07:16:38,I,Issue,2.0,34,1034426,albuter 2.5mg/0.5ml 0.5ml nebule,2,St Joseph's,51,5W
+253,2022-10-18 07:19:50,G,Pick,1.0,515,1037483,cloNIDine 0.1mg tablet,2,St Joseph's,43,RX
+254,2022-10-18 07:20:18,I,Issue,1.0,43,1038090,albuterol-ipratropium 3ml nebule,2,St Joseph's,62,3P1
+255,2022-10-18 07:20:18,I,Issue,1.0,27,1020171,paliperidone 3mg tablet,2,St Joseph's,32,VN 
+256,2022-10-18 07:20:30,I,Issue,1.0,34,1019918,paliperidone 6mg tablet,2,St Joseph's,32,VN 
+257,2022-10-18 07:20:36,W,Waste,0.5,0,1038555,HYDROmorphone 2mg/1ml 1ml vial,2,St Joseph's,36,EMD
+258,2022-10-18 07:20:55,I,Issue,2.0,37,980282,dexamethasone ( 4mg/1ml 1ml vial,2,St Joseph's,12,OR
+259,2022-10-18 07:21:01,K,Destock,1.0,3,1020950,proparacaine 0.5% op 15ml bottle,2,St Joseph's,36,EMD
+260,2022-10-18 07:21:04,I,Issue,1.0,32,1041572,lidocaine  1% 10mg/1ml 5ml vial,2,St Joseph's,12,OR
+261,2022-10-18 07:21:09,I,Issue,1.0,28,981742,propofol (D 10mg/1ml 20ml ampule,2,St Joseph's,12,OR
+262,2022-10-18 07:21:18,I,Issue,1.0,42,1038090,albuterol-ipratropium 3ml nebule,2,St Joseph's,62,3P1
+263,2022-10-18 07:21:34,R,Return,-1.0,73441,984285,.patient's other medications,2,St Joseph's,80,5TN
+264,2022-10-18 07:22:05,I,Issue,2.0,6,986274,benztropine (COGENTIN 1mg tablet,2,St Joseph's,32,VN 
+265,2022-10-18 07:23:51,I,Issue,1.0,62,990342,Lactated Ringer's 1000ml bag,2,St Joseph's,25,BP
+266,2022-10-18 07:24:03,I,Issue,1.0,323573,985856,.patient's other medications,2,St Joseph's,32,VN 
+267,2022-10-18 07:24:09,W,Waste,0.82,0,1004391,morphine or 0.4mg/1mL 0.5mL each,2,St Joseph's,24,NICU
+268,2022-10-18 07:24:12,I,Issue,1.0,17,992247,ferrous sulfate 325mg tablet,2,St Joseph's,82,7TN
+269,2022-10-18 07:24:19,I,Issue,1.0,27,1040213,atorvastatin 20mg tablet,2,St Joseph's,82,7TN
+270,2022-10-18 07:24:46,I,Issue,1.0,18,1028928,docusate sodium 100mg capsule,2,St Joseph's,32,VN 
+271,2022-10-18 07:24:53,I,Issue,1.0,60562,984306,.patient's other medications,2,St Joseph's,82,7TN
+272,2022-10-18 07:25:06,I,Issue,2.0,9,1041950,lisinopril 20mg tablet,2,St Joseph's,82,7TN
+273,2022-10-18 07:25:05,I,Issue,1.0,39,1038754,nicotine 21mg patch,2,St Joseph's,32,VN 
+274,2022-10-18 07:25:15,I,Issue,1.0,12,1036982,citalopram 20mg tablet,2,St Joseph's,82,7TN
+275,2022-10-18 07:25:28,I,Issue,1.0,13,1045080,aspirin 325mg tablet,2,St Joseph's,82,7TN
+276,2022-10-18 07:25:52,I,Issue,1.0,8,991904,aspirin enteric coa 325mg tablet,2,St Joseph's,81,6TN
+277,2022-10-18 07:25:49,I,Issue,1.0,4,1034002,ePHEDrine 25mg/5mL 5mL syringe,2,St Joseph's,44,SDS
+278,2022-10-18 07:26:02,I,Issue,1.0,57,1034709,acetaminophen susp 160mg/5mL 5mL,2,St Joseph's,644794,ENT
+279,2022-10-18 07:26:16,I,Issue,1.0,59,1028951,docusate sodium 100mg capsule,2,St Joseph's,81,6TN
+280,2022-10-18 07:26:16,I,Issue,1.0,16,989956,0.9% sodium chloride 1000ml bag,2,St Joseph's,84,7S
+281,2022-10-18 07:26:21,I,Issue,1.0,21,1038586,lamoTRIgine 100mg tablet,2,St Joseph's,32,VN 
+282,2022-10-18 07:26:40,I,Issue,1.0,5,996295,isosorbide mononitra 30mg tablet,2,St Joseph's,81,6TN
+283,2022-10-18 07:26:43,G,Pick,1.0,10,1039846,ketamine (KET 50mg/1ml 10ml vial,2,St Joseph's,644808,KIT
+284,2022-10-18 07:26:43,V,Event,1.0,10,1040181,ketamine (KET 50mg/1ml 10ml vial,2,St Joseph's,644808,KIT
+285,2022-10-18 07:26:43,V,Event,1.0,39,1040174,rocuronium 10mg/1ml 5ml vial,2,St Joseph's,644808,KIT
+286,2022-10-18 07:26:50,I,Issue,3.0,5,1019591,vitamin D 1000units tablet,2,St Joseph's,32,VN 
+287,2022-10-18 07:27:01,I,Issue,1.0,22,989163,venlafaxine  XR (E 150mg capsule,2,St Joseph's,32,VN 
+288,2022-10-18 07:27:16,I,Issue,3.0,87,1043866,nicotine 2mg lozenge,2,St Joseph's,32,VN 
+289,2022-10-18 07:29:17,I,Issue,1.0,25,1027560,hydrOXYzine 25mg tablet,2,St Joseph's,32,VN 
+290,2022-10-18 07:29:36,I,Issue,2.0,12,991482,senna-dss (PERI-COLAC 1ea tablet,2,St Joseph's,80,5TN
+291,2022-10-18 07:29:42,I,Issue,2.0,14,1033508,gabapentin 400mg capsule,2,St Joseph's,81,6TN
+292,2022-10-18 07:29:49,C,Cycle Count,80.0,80,1045336,warfarin 5mg tablet,2,St Joseph's,644799,OR_RX
+293,2022-10-18 07:29:48,I,Issue,1.0,4,1041104,risperiDONE 0.5mg tablet,2,St Joseph's,80,5TN
+294,2022-10-18 07:30:00,G,Pick,0.0,0,1033346,b 100000units/500ml 500ml bottle,2,St Joseph's,644799,OR_RX
+295,2022-10-18 07:32:55,I,Issue,1.0,13,1020397,aspirin enteric coat 81mg tablet,2,St Joseph's,82,7TN
+296,2022-10-18 07:32:57,I,Issue,1.0,18,987151,naproxen (NAPROSYN) 500mg tablet,2,St Joseph's,32,VN 
+297,2022-10-18 07:32:59,I,Issue,1.0,13,1035482,polyethylene glycol 3 17g packet,2,St Joseph's,80,5TN
+298,2022-10-18 07:32:59,I,Issue,1.0,28,1025387,escitalopram 10mg tablet,2,St Joseph's,32,VN 
+299,2022-10-18 07:32:59,I,Issue,1.0,23,1027353,carvedilol (COREG 3.125mg tablet,2,St Joseph's,82,7TN
+300,2022-10-18 07:33:09,I,Issue,1.0,6,1003673,phenytoin  extende 100mg capsule,2,St Joseph's,80,5TN
+301,2022-10-18 07:33:37,I,Issue,1.0,28,992299,amiodarone (PACERON 200mg tablet,2,St Joseph's,82,7TN
+302,2022-10-18 07:33:41,I,Issue,1.0,4,1004740,calcium carbonate c 500mg tablet,2,St Joseph's,32,VN 
+303,2022-10-18 07:33:40,S,Restock,-100.0,273,1038479,oxyCODONE CR 10mg tablet,2,St Joseph's,43,RX
+304,2022-10-18 07:33:46,I,Issue,1.0,28,1020403,aspirin enteric coat 81mg tablet,2,St Joseph's,82,7TN
+305,2022-10-18 07:33:49,I,Issue,1.0,11,1041359,metOLazone 2.5mg tablet,2,St Joseph's,81,6TN
+306,2022-10-18 07:33:59,I,Issue,1.0,38,1038754,nicotine 21mg patch,2,St Joseph's,32,VN 
+307,2022-10-18 07:34:01,I,Issue,1.0,15,993486,carvedilol (COREG) 25mg tablet,2,St Joseph's,81,6TN
+308,2022-10-18 07:34:10,I,Issue,1.0,16,1036730,clopidogrel 75mg tablet,2,St Joseph's,82,7TN
+309,2022-10-18 07:34:14,I,Issue,1.0,0,969670,midazolam (VERS 2mg/2ml 2ml vial,2,St Joseph's,12,OR
+310,2022-10-18 07:34:13,I,Issue,2.0,14,1019101,pramipexole dihydr 0.25mg tablet,2,St Joseph's,81,6TN
+311,2022-10-18 07:34:17,N,Null,0.0,33,1040430,atorvastatin 10mg tablet,2,St Joseph's,32,VN 
+312,2022-10-18 07:34:30,I,Issue,1.0,57,1041673,lidocaine  1% 10mg/1ml 5ml vial,2,St Joseph's,12,OR
+313,2022-10-18 07:34:34,I,Issue,1.0,6,993742,cyclobenzaprine (FLE 10mg tablet,2,St Joseph's,84,7S
+314,2022-10-18 07:34:37,I,Issue,1.0,14,971424,propofol (D 10mg/1ml 20ml ampule,2,St Joseph's,12,OR
+315,2022-10-18 07:34:36,I,Issue,1.0,27,1025387,escitalopram 10mg tablet,2,St Joseph's,32,VN 
+316,2022-10-18 07:34:41,I,Issue,1.0,72914,984145,.patient's other medications,2,St Joseph's,80,5TN
+317,2022-10-18 07:34:47,I,Issue,2.0,14,1040075,calcium acetate 667mg capsule,2,St Joseph's,82,7TN
+318,2022-10-18 07:35:02,I,Issue,1.0,82818,1000640,.patient's other medications,2,St Joseph's,82,7TN
+319,2022-10-18 07:35:04,I,Issue,2.0,42,1030556,acetaminophen 325mg tablet,2,St Joseph's,32,VN 
+320,2022-10-18 07:35:17,S,Restock,-1200.0,1360,1033762,HYDROcodone/acetamino 1ea tablet,2,St Joseph's,43,RX
+321,2022-10-18 07:35:22,I,Issue,1.0,20,1045083,aspirin 325mg tablet,2,St Joseph's,82,7TN
+322,2022-10-18 07:35:18,I,Issue,1.0,3,1039259,predniSONE 10mg tablet,2,St Joseph's,80,5TN
+323,2022-10-18 07:35:32,I,Issue,1.0,15,993424,carvedilol (COREG) 12.5mg tablet,2,St Joseph's,82,7TN
+324,2022-10-18 07:35:50,R,Return,-1.0,34,1040430,atorvastatin 10mg tablet,2,St Joseph's,32,VN 
+325,2022-10-18 07:38:01,I,Issue,1.0,76518,984094,.patient's other medications,2,St Joseph's,81,6TN
+326,2022-10-18 07:38:14,I,Issue,1.0,3,987919,potassium ch 20meq/15ml 15ml cup,2,St Joseph's,81,6TN
+327,2022-10-18 07:38:15,I,Issue,1.0,47,1018904,QUEtiapine 25mg tablet,2,St Joseph's,32,VN 
+328,2022-10-18 07:38:17,I,Issue,1.0,30,1031729,sertraline 50mg tablet,2,St Joseph's,45,VS
+329,2022-10-18 07:38:22,I,Issue,2.0,40,1030556,acetaminophen 325mg tablet,2,St Joseph's,32,VN 
+330,2022-10-18 07:38:41,I,Issue,1.0,5,1026483,ondansetron ODT 4mg tablet,2,St Joseph's,32,VN 
+331,2022-10-18 07:38:42,I,Issue,1.0,13,1028373,ondansetron 4mg/2ml 2ml vial,2,St Joseph's,44,SDS
+332,2022-10-18 07:38:48,I,Issue,1.0,11,1023625,memantine 10mg tablet,2,St Joseph's,5,6W
+333,2022-10-18 07:38:43,I,Issue,1.0,38,1035806,OLANZapine ODT 10mg tablet,2,St Joseph's,32,VN 
+334,2022-10-18 07:38:49,I,Issue,1.0,10,1044679,ketorolac 30mg/1ml 1ml vial,2,St Joseph's,44,SDS
+335,2022-10-18 07:38:51,I,Issue,1.0,5,1038771,rocuronium 10mg/1ml 5ml vial,2,St Joseph's,44,SDS
+336,2022-10-18 07:38:59,I,Issue,1.0,9,1045010,lidocaine  1% 10mg/1ml 5ml vial,2,St Joseph's,44,SDS
+337,2022-10-18 07:40:00,I,Issue,1.0,13,1045340,OXcarbazepine 150mg tablet,2,St Joseph's,62,3P1
+338,2022-10-18 07:40:11,I,Issue,1.0,14,1039655,guanFACINE CR 1mg tablet,2,St Joseph's,45,VS
+339,2022-10-18 07:40:09,I,Issue,1.0,18,1037266,metoprolol tartra 12.5mg SPLITab,2,St Joseph's,81,6TN
+340,2022-10-18 07:40:12,S,Restock,-100.0,158,1044998,morphine CR 100mg tablet,2,St Joseph's,43,RX
+341,2022-10-18 07:40:22,I,Issue,1.0,18,995615,atomoxetine (STRATT 10mg capsule,2,St Joseph's,45,VS
+342,2022-10-18 07:40:33,I,Issue,1.0,76517,984094,.patient's other medications,2,St Joseph's,81,6TN
+343,2022-10-18 07:40:37,I,Issue,2.0,4,1041729,HYDROmorphone 2mg tablet,2,St Joseph's,32,VN 
+344,2022-10-18 07:40:46,I,Issue,1.0,2,1027366,clonazePAM 1mg tablet,2,St Joseph's,32,VN 
+345,2022-10-18 07:40:51,I,Issue,1.0,998420,984586,.patient's other medications,2,St Joseph's,45,VS
+346,2022-10-18 07:40:55,S,Restock,-100.0,131,1039214,morphine CR 30mg tablet,2,St Joseph's,43,RX
+347,2022-10-18 07:40:54,I,Issue,2.0,55,1041673,lidocaine  1% 10mg/1ml 5ml vial,2,St Joseph's,12,OR
+348,2022-10-18 07:41:02,I,Issue,1.0,8,1001965,baclofen (LIORESAL) 10mg tablet,2,St Joseph's,32,VN 
+349,2022-10-18 07:41:09,I,Issue,2.0,10,1002395,venlafaxine (EFFEXOR 25mg tablet,2,St Joseph's,81,6TN
+350,2022-10-18 07:41:18,I,Issue,2.0,18,1035870,losartan potassium 50mg tablet,2,St Joseph's,80,5TN
+351,2022-10-18 07:41:21,I,Issue,1.0,9,1014904,famotidine (PEPCID) 20mg tablet,2,St Joseph's,5,6W
+352,2022-10-18 07:41:21,I,Issue,2.0,7,971088,midazolam (VERS 2mg/2ml 2ml vial,2,St Joseph's,12,OR
+353,2022-10-18 07:41:28,I,Issue,2.0,1,1037566,fentaNYL 100mCg/2ml 2ml vial,2,St Joseph's,12,OR
+354,2022-10-18 07:41:44,I,Issue,1.0,3,1036643,chlorhexidine (PERIDEX) 15ml cup,2,St Joseph's,81,6TN
+355,2022-10-18 07:41:55,I,Issue,1.0,972781,985733,.patient's other medications,2,St Joseph's,5,6W
+356,2022-10-18 07:41:58,I,Issue,1.0,8,1031147,morphine 2mg/1ml 1ml syringe,2,St Joseph's,36,EMD
+357,2022-10-18 07:42:00,I,Issue,1.0,73440,984285,.patient's other medications,2,St Joseph's,80,5TN
+358,2022-10-18 07:42:08,I,Issue,1.0,6,1035380,polyethylene glycol 3 17g packet,2,St Joseph's,5,6W
+359,2022-10-18 07:42:12,I,Issue,1.0,9,1030997,vitamin D 1000units tablet,2,St Joseph's,80,5TN
+360,2022-10-18 07:42:43,I,Issue,1.0,46,1038082,albuterol-ipratropium 3ml nebule,2,St Joseph's,58,2NE
+361,2022-10-18 07:45:13,I,Issue,1.0,99947,1007758,.patient's other medication 1 ea,2,St Joseph's,32,VN 
+362,2022-10-18 07:45:19,I,Issue,1.0,18,1028475,enoxapa 40mg/0.4ml 0.4ml syringe,2,St Joseph's,62,3P1
+363,2022-10-18 07:45:27,I,Issue,1.0,76516,984094,.patient's other medications,2,St Joseph's,81,6TN
+364,2022-10-18 07:45:26,I,Issue,1.0,3,1037553,fentaNYL 100mCg/2ml 2ml vial,2,St Joseph's,84,7S
+365,2022-10-18 07:45:30,I,Issue,1.0,9,1031803,glycopyrrolat 0.2mg/1ml 1ml vial,2,St Joseph's,44,SDS
+366,2022-10-18 07:45:42,I,Issue,1.0,6,1042135,lamoTRIgine 100mg tablet,2,St Joseph's,62,3P1
+367,2022-10-18 07:45:44,I,Issue,1.0,9,1044165,citalopram 10mg tablet,2,St Joseph's,62,3P1
+368,2022-10-18 07:45:51,I,Issue,1.0,24,1025721,folic acid 1mg tablet,2,St Joseph's,32,VN 
+369,2022-10-18 07:46:00,I,Issue,2.0,34,1036979,FLUoxetine 20mg capsule,2,St Joseph's,32,VN 
+370,2022-10-18 07:46:02,I,Issue,1.0,14,996865,multi vit.w/min (Cent 1ea tablet,2,St Joseph's,32,VN 
+371,2022-10-18 07:46:07,I,Issue,1.0,9,1035340,calcium w/ vitamin d 1tab tablet,2,St Joseph's,5,6W
+372,2022-10-18 07:46:19,I,Issue,1.0,8,1042400,phenyleph 0.1mg/1ml 10ml syringe,2,St Joseph's,12,OR
+373,2022-10-18 07:46:54,I,Issue,1.0,45,1045281,pregabalin (LYRICA) 50mg capsule,2,St Joseph's,5,6W
+374,2022-10-18 07:47:02,V,Event,2.0,0,1036770,fentaNYL 100mCg/2ml 2ml RFID,2,St Joseph's,43,RX
+375,2022-10-18 07:47:06,I,Issue,1.0,13,1025592,clonazePAM 0.5mg tablet,2,St Joseph's,5,6W
+376,2022-10-18 07:47:20,I,Issue,1.0,8,1040486,hydroCHLOROthiazide 25mg tablet,2,St Joseph's,5,6W
+377,2022-10-18 07:47:29,I,Issue,1.0,4,1025612,nicotine 14mg patch,2,St Joseph's,5,6W
+378,2022-10-18 07:47:49,I,Issue,1.0,21,1025609,folic acid 1mg tablet,2,St Joseph's,32,VN 
+379,2022-10-18 07:47:56,I,Issue,1.0,72913,984145,.patient's other medications,2,St Joseph's,80,5TN
+380,2022-10-18 07:47:57,I,Issue,1.0,983163,984512,.patient's other medications,2,St Joseph's,644795,4W SPINE
+381,2025-10-18 07:47:59,I,Issue,1.0,28,990520,thiamine (B-1) 100mg tablet,2,St Joseph's,32,VN 
+382,2022-10-18 07:48:02,I,Issue,1.0,2,1043351,fentaNYL 100mCg/2ml 2ml vial,2,St Joseph's,12,OR
+383,2022-10-18 07:48:00,I,Issue,1.0,972779,985733,.patient's other medications,2,St Joseph's,5,6W
+384,2022-10-18 07:48:20,I,Issue,5.0,19,1034809,vitamin D 1000units tablet,2,St Joseph's,5,6W
+385,2022-10-18 07:48:25,I,Issue,1.0,11,971013,propofol (D 10mg/1ml 20ml ampule,2,St Joseph's,12,OR
+386,2022-10-18 07:48:25,I,Issue,1.0,47,1038750,nicotine 21mg patch,2,St Joseph's,32,VN 
+387,2022-10-18 07:48:31,I,Issue,1.0,2,1041918,mastisol adhesive ex liqd 1each,2,St Joseph's,44,SDS
+388,2022-10-18 07:48:48,L,Receive,-2.0,0,1035957,fosaprepitant 150mg/5ml 5ml vial,2,St Joseph's,43,RX
+389,2022-10-18 07:48:44,I,Issue,1.0,97354,1039590,.patient's other medications,2,St Joseph's,62,3P1
+390,2022-10-18 07:48:47,I,Issue,1.0,3,1020773,LORazepam (ATIV 2mg/1ml 1ml vial,2,St Joseph's,36,EMD
+391,2022-10-18 07:48:55,I,Issue,1.0,14,985580,dr. newman's nipple oin 30gm jar,2,St Joseph's,25,BP
+392,2022-10-18 07:48:59,I,Issue,1.0,13,1037557,ceFAZolin 2 gm/50 m 1each duplex,2,St Joseph's,44,SDS
+393,2022-10-18 07:49:06,I,Issue,1.0,12,991983,ferrous sulfate 325mg tablet,2,St Joseph's,25,BP
+394,2022-10-18 07:49:06,I,Issue,1.0,972778,985733,.patient's other medications,2,St Joseph's,5,6W
+395,2022-10-18 07:49:11,I,Issue,1.0,94,1028757,docusate sodium 100mg capsule,2,St Joseph's,25,BP
+396,2022-10-18 07:49:40,I,Issue,1.0,27,1037616,ceFAZolin 1 gm/ 50 ml 1gm Duplex,2,St Joseph's,76,PREPOST
+397,2022-10-18 07:52:18,V,Event,1.0,9,1040181,ketamine (KET 50mg/1ml 10ml vial,2,St Joseph's,644808,KIT
+398,2022-10-18 07:52:22,V,Event,2.0,43,1038837,omalizumab 150mg vial,2,St Joseph's,43,RX
+399,2022-10-18 07:52:26,I,Issue,1.0,10,1039301,hydroCHLOROthiazi 12.5mg capsule,2,St Joseph's,18,CICU12
+400,2022-10-18 07:52:38,I,Issue,1.0,13,1012254,0.9% sodium chloride 1000ml bag,2,St Joseph's,36,EMD
+401,2022-10-18 07:52:39,I,Issue,1.0,323569,985856,.patient's other medications,2,St Joseph's,32,VN 
+402,2022-10-18 07:53:13,V,Event,2.0,100,1031056,butalbital-APAP-caffe 1ea tablet,2,St Joseph's,43,RX
+403,2022-10-18 07:53:13,G,Pick,2.0,100,1031057,butalbital-APAP-caffe 1ea tablet,2,St Joseph's,43,RX
+404,2022-10-18 07:53:10,I,Issue,1.0,25,991977,amiodarone (PACERON 200mg tablet,2,St Joseph's,82,7TN
+405,2022-10-18 07:53:15,I,Issue,1.0,13,1021968,vitamins a and d 1ea packet,2,St Joseph's,25,BP
+406,2022-10-18 07:53:19,I,Issue,1.0,8,994260,multi vit.w/min (Cent 1ea tablet,2,St Joseph's,82,7TN
+407,2022-10-18 07:53:24,I,Issue,1.0,14,1019520,gabapentin 300mg capsule,2,St Joseph's,82,7TN
+408,2022-10-18 07:53:39,I,Issue,1.0,82817,1000640,.patient's other medications,2,St Joseph's,82,7TN
+409,2022-10-18 07:54:34,S,Restock,-5.0,5,1033673,morphine 10mg/1ml 1ml vial,2,St Joseph's,42,PACU
+410,2022-10-18 07:54:37,I,Issue,1.0,11,1035393,calcium w/ vitamin d 1tab tablet,2,St Joseph's,64,4P1
+411,2022-10-18 07:54:43,I,Issue,1.0,76514,984094,.patient's other medications,2,St Joseph's,81,6TN
+412,2022-10-18 07:54:47,S,Restock,-3.0,5,1033108,morphine 10mg/1ml 1ml vial,2,St Joseph's,42,PACU
+413,2022-10-18 07:54:45,I,Issue,1.0,14,1029575,aspirin 81mg chewtab,2,St Joseph's,64,4P1
+414,2022-10-18 07:54:52,I,Issue,1.0,33,1029250,gabapentin 300mg capsule,2,St Joseph's,64,4P1
+415,2022-10-18 07:54:58,I,Issue,1.0,12,1020397,aspirin enteric coat 81mg tablet,2,St Joseph's,82,7TN
+416,2022-10-18 07:55:05,G,Pick,1.0,18,1039839,fentaNYL 100mCg/2ml 2ml vial,2,St Joseph's,644808,KIT
+417,2022-10-18 07:55:05,V,Event,2.0,41,1040353,midazolam (VERS 5mg/1ml 1ml vial,2,St Joseph's,644808,KIT
+418,2022-10-18 07:55:05,V,Event,1.0,18,1040096,fentaNYL 100mCg/2ml 2ml vial,2,St Joseph's,644808,KIT
+419,2022-10-18 07:55:03,I,Issue,1.0,5,1004405,multi vit.w/min (Ocuv 1ea tablet,2,St Joseph's,64,4P1
+420,2022-10-18 07:55:20,I,Issue,1.0,13,1034337,enoxapa 40mg/0.4ml 0.4ml syringe,2,St Joseph's,81,6TN
+421,2022-10-18 07:55:15,I,Issue,1.0,79654,985282,.patient's other medications,2,St Joseph's,64,4P1
+422,2022-10-18 07:55:33,I,Issue,1.0,60557,984306,.patient's other medications,2,St Joseph's,82,7TN
+423,2022-10-18 07:55:29,I,Issue,1.0,5,1031748,sertraline 50mg tablet,2,St Joseph's,64,4P1
+424,2022-10-18 07:55:31,I,Issue,1.0,52920,984166,.patient's other medications,2,St Joseph's,81,6TN
+425,2022-10-18 07:55:39,I,Issue,1.0,17,1026331,ondansetron 4mg/2ml 2ml vial,2,St Joseph's,36,EMD
+426,2022-10-18 07:55:55,G,Pick,1.0,24,1032602,immune globul 5gm/50ml 50ml vial,2,St Joseph's,43,RX
+427,2022-10-18 07:55:55,V,Event,1.0,24,1029916,immune globul 5gm/50ml 50ml vial,2,St Joseph's,43,RX
+428,2022-10-18 07:55:55,I,Issue,1.0,5,1037278,fentaNYL 100mCg/2ml 2ml vial,2,St Joseph's,36,EMD
+429,2022-10-18 07:56:00,I,Issue,1.0,2,972402,midazolam (VERS 2mg/2ml 2ml vial,2,St Joseph's,33,ANES
+430,2022-10-18 07:55:58,S,Restock,-1.0,1,1011753,fentaNYL/bupi 3mcg/1ml 250ml bag,2,St Joseph's,42,PACU
+431,2022-10-18 07:56:06,I,Issue,1.0,24,991977,amiodarone (PACERON 200mg tablet,2,St Joseph's,82,7TN
+432,2022-10-18 07:56:12,I,Issue,1.0,14,992071,senna-dss (PERI-COLAC 1ea tablet,2,St Joseph's,82,7TN
+433,2022-10-18 07:57:38,I,Issue,1.0,76513,984094,.patient's other medications,2,St Joseph's,81,6TN
+434,2022-10-18 07:57:46,S,Restock,-1.0,6,999348,DOBUTamine 2000mcg/1ml 250ml bag,2,St Joseph's,42,PACU
+435,2022-10-18 07:57:55,I,Issue,1.0,11,991514,multi vit.w/min (Cent 1ea tablet,2,St Joseph's,80,5TN
+436,2022-10-18 07:57:59,I,Issue,1.0,111,1038053,albuterol-ipratropium 3ml nebule,2,St Joseph's,81,6TN
+437,2022-10-18 07:58:05,G,Pick,1.0,42,1030407,immune globul 5gm/50ml 50ml vial,2,St Joseph's,43,RX
+438,2022-10-18 07:58:19,V,Event,1.0,17,1030925,immune glo 20gm/200ml 200ml vial,2,St Joseph's,43,RX
+439,2022-10-18 08:12:56,I,Issue,1.0,37,1038071,albuterol-ipratropium 3ml nebule,2,St Joseph's,82,7TN
+440,2022-10-18 08:13:10,I,Issue,1.0,72911,984145,.patient's other medications,2,St Joseph's,80,5TN
+441,2022-10-18 08:13:09,I,Issue,1.0,11,1004705,glipiZIDE (GLUCOTROL 10mg tablet,2,St Joseph's,644795,4W SPINE
+442,2022-10-18 08:13:17,V,Event,11.0,195,1013709,diphenhydrAMINE (BE 25mg capsule,2,St Joseph's,43,RX
+443,2022-10-18 08:13:17,G,Pick,11.0,195,1013713,diphenhydrAMINE (BE 25mg capsule,2,St Joseph's,43,RX
+444,2022-10-18 08:13:19,I,Issue,1.0,36,1038071,albuterol-ipratropium 3ml nebule,2,St Joseph's,82,7TN
+445,2022-10-18 08:13:48,I,Issue,1.0,7,1032589,sertraline 50mg tablet,2,St Joseph's,80,5TN
+446,2022-10-18 08:13:57,I,Issue,1.0,997892,1035135,.patient's other medications,2,St Joseph's,644795,4W SPINE
+447,2022-10-18 08:13:55,I,Issue,1.0,6,1040209,atorvastatin 10mg tablet,2,St Joseph's,62,3P1
+448,2022-10-18 08:14:07,V,Event,21.0,255,1022110,aspirin enteric coat 81mg tablet,2,St Joseph's,43,RX
+449,2022-10-18 08:14:07,G,Pick,21.0,255,1022111,aspirin enteric coat 81mg tablet,2,St Joseph's,43,RX
+450,2022-10-18 08:14:08,I,Issue,1.0,1,1040982,pantoprazole 40mg tablet,2,St Joseph's,25,BP
+451,2022-10-18 08:14:07,I,Issue,1.0,8,993094,vitamin e 400units capsule,2,St Joseph's,62,3P1
+452,2022-10-18 08:14:19,I,Issue,1.0,19,1020048,meropenem Vial2Bag 500mg,2,St Joseph's,80,5TN
+453,2022-10-18 08:14:22,I,Issue,1.0,9,986694,prenatal multivit-min 1ea tablet,2,St Joseph's,25,BP
+454,2022-10-18 08:14:28,I,Issue,1.0,9,1026033,escitalopram 20mg tablet,2,St Joseph's,81,6TN
+455,2022-10-18 08:14:29,I,Issue,1.0,17,990289,0.9% sodium chloride 1000ml bag,2,St Joseph's,18,CICU12
+456,2022-10-18 08:14:45,I,Issue,1.0,7,1043282,lisinopril 5mg tablet,2,St Joseph's,80,5TN
+457,2022-10-18 08:14:43,I,Issue,1.0,52918,984166,.patient's other medications,2,St Joseph's,81,6TN
+458,2022-10-18 08:14:51,I,Issue,1.0,11,1038084,albuterol-ipratropium 3ml nebule,2,St Joseph's,18,CICU12
+459,2022-10-18 08:14:50,I,Issue,1.0,12,1020425,aspirin enteric coat 81mg tablet,2,St Joseph's,5,6W
+460,2022-10-18 08:14:56,V,Event,18.0,214,998222,carbidopa-levodopa 25 1ea tablet,2,St Joseph's,43,RX
+461,2022-10-18 08:14:56,G,Pick,18.0,214,1009123,carbidopa-levodopa 25 1ea tablet,2,St Joseph's,43,RX
+462,2022-10-18 08:14:59,I,Issue,1.0,13,1019932,propofol (D 10mg/1ml 20ml ampule,2,St Joseph's,29,CATHLAB 
+463,2022-10-18 08:15:05,R,Return,-1.0,82816,1000640,.patient's other medications,2,St Joseph's,82,7TN
+464,2022-10-18 08:15:19,V,Event,15.0,63,997837,levalbuter 0.63mg/3ml 3ml nebule,2,St Joseph's,43,RX
+465,2022-10-18 08:15:17,I,Issue,1.0,97353,1039590,.patient's other medications,2,St Joseph's,62,3P1
+466,2022-10-18 08:15:19,G,Pick,15.0,63,1009141,levalbuter 0.63mg/3ml 3ml nebule,2,St Joseph's,43,RX
+467,2022-10-18 08:15:13,I,Issue,1.0,2,1021600,phenyleph 0.1mg/1ml 10ml syringe,2,St Joseph's,25,BP
+468,2022-10-18 08:15:24,I,Issue,1.0,7,1037910,clonazePAM 1mg wafer,2,St Joseph's,5,6W
+469,2022-10-18 08:16:15,I,Issue,1.0,16,1015093,potassium chloride 10meq tablet,2,St Joseph's,81,6TN
+470,2022-10-18 08:16:19,O,Supplemental Restock,-5.0,5,1015712,emergency med box 1ea box,2,St Joseph's,15,ONCOLOGY
+471,2022-10-18 08:16:20,M,Modify Bin,0.0,5,1015712,emergency med box 1ea box,2,St Joseph's,15,ONCOLOGY
+472,2022-10-18 08:16:31,V,Event,9.0,40,1023266,buPROPion XL 300mg tablet,2,St Joseph's,43,RX
+473,2022-10-18 08:16:31,G,Pick,9.0,40,1023267,buPROPion XL 300mg tablet,2,St Joseph's,43,RX
+474,2022-10-18 08:16:36,G,Pick,7.0,21,1010302,potassium ch 20meq/15ml 15ml cup,2,St Joseph's,43,RX
+475,2022-10-18 08:16:44,I,Issue,1.0,7,997513,loratadine (CLARITIN 10mg tablet,2,St Joseph's,64,4P1
+476,2022-10-18 08:16:50,I,Issue,1.0,26,1038078,lactobacillus acidoph 1ea tablet,2,St Joseph's,81,6TN
+477,2022-10-18 08:16:54,I,Issue,1.0,6,1029405,furosemide (LASIX) 40mg tablet,2,St Joseph's,64,4P1
+478,2022-10-18 08:16:58,N,Null,0.0,0,1008625,"Aux 1, Zone 3",2,St Joseph's,84,7S
+479,2022-10-18 08:17:12,V,Event,10.0,48,1038330,predniSONE 10mg tablet,2,St Joseph's,43,RX
+480,2022-10-18 08:17:18,G,Pick,11.0,58,1009084,levothyroxine (LEVO 88mcg tablet,2,St Joseph's,43,RX
+481,2022-10-18 08:18:15,G,Pick,23.0,92,1035661,losartan potassium 50mg tablet,2,St Joseph's,43,RX
+482,2022-10-18 08:18:14,I,Issue,1.0,9,995831,5% dex in 0.9% NaCL 1000ml bag,2,St Joseph's,84,7S
+483,2022-10-18 08:18:29,I,Issue,1.0,79653,985282,.patient's other medications,2,St Joseph's,64,4P1
+484,2022-10-18 08:18:47,D,Discrepancy,1.0,12,1040212,vedolizumab 300mg vial,2,St Joseph's,43,RX
+485,2022-10-18 08:18:48,C,Cycle Count,12.0,12,1040212,vedolizumab 300mg vial,2,St Joseph's,43,RX
+486,2022-10-18 08:18:45,I,Issue,1.0,12,995108,lidocaine 5% 1ea patch,2,St Joseph's,64,4P1
+487,2022-10-18 08:19:01,V,Event,7.0,50,988091,melatonin 5mg tablet,2,St Joseph's,43,RX
+488,2022-10-18 08:19:01,G,Pick,7.0,50,1008992,melatonin 5mg tablet,2,St Joseph's,43,RX
+489,2022-10-18 08:19:06,I,Issue,2.0,14,1029334,senna-dss (PERI-COLAC 1ea tablet,2,St Joseph's,64,4P1
+490,2022-10-18 08:19:08,G,Pick,3.0,184,1039081,methylphenidate 10mg tablet,2,St Joseph's,43,RX
+491,2022-10-18 08:19:08,V,Event,3.0,0,1039082,methylphenidate 10mg tablet,2,St Joseph's,43,RX
+492,2022-10-18 08:19:17,I,Issue,4.0,4,1002772,baclofen (LIORESAL) 10mg tablet,2,St Joseph's,64,4P1
+493,2022-10-18 08:19:26,I,Issue,2.0,5,993274,senna-dss (PERI-COLAC 1ea tablet,2,St Joseph's,84,7S
+494,2022-10-18 08:19:33,G,Pick,3.0,8,1009481,dextrose 40% (glucose 15gm tube,2,St Joseph's,43,RX
+495,2022-10-18 08:19:30,I,Issue,1.0,72910,984145,.patient's other medications,2,St Joseph's,80,5TN
+496,2022-10-18 08:19:33,I,Issue,1.0,3,1044987,celecoxib 200mg capsule,2,St Joseph's,64,4P1
+497,2022-10-18 08:19:33,I,Issue,1.0,52917,984166,.patient's other medications,2,St Joseph's,81,6TN
+498,2022-10-18 08:19:54,L,Receive,-100.0,0,1038326,zolpidem 10mg tablet,2,St Joseph's,43,RX
+499,2022-10-18 08:19:54,L,Receive,-1100.0,0,1039334,traMADol 50mg tablet,2,St Joseph's,43,RX
+500,2022-10-18 08:20:01,I,Issue,1.0,26,1041550,ondansetron 4mg/2ml 2ml vial,2,St Joseph's,12,OR
+501,2022-10-18 08:20:03,I,Issue,1.0,14,1044781,ketorolac 30mg/1ml 1ml vial,2,St Joseph's,12,OR
+502,2022-10-18 08:20:05,I,Issue,1.0,14,1042543,dexamethasone ( 4mg/1ml 1ml vial,2,St Joseph's,12,OR
+503,2022-10-18 08:20:06,I,Issue,2.0,5,1021112,prednisoLONE 3mg/1ml 5ml syringe,2,St Joseph's,36,EMD
+504,2022-10-18 08:20:19,V,Event,16.0,0,1038475,HYDROmorphone 2mg/1ml 1ml vial,2,St Joseph's,43,RX
+505,2022-10-18 08:22:17,V,Event,15.0,0,1036871,fentaNYL 100mCg/2ml 2ml vial,2,St Joseph's,43,RX
+506,2022-10-18 08:22:35,I,Issue,1.0,5,995529,isosorbide mononitra 60mg tablet,2,St Joseph's,80,5TN
+507,2022-10-18 08:22:43,I,Issue,1.0,31,1038056,albuterol-ipratropium 3ml nebule,2,St Joseph's,36,EMD
+508,2022-10-18 08:22:50,I,Issue,1.0,11,1035905,verapamil (CALA 5mg/2ml 2ml vial,2,St Joseph's,29,CATHLAB 
+509,2022-10-18 08:23:00,V,Event,4.0,80,1014520,metoclopramide 10mg/2ml 2ml vial,2,St Joseph's,43,RX
+510,2022-10-18 08:23:01,G,Pick,0.0,0,1042945,oxyCODONE oral conc,2,St Joseph's,43,RX
+511,2022-10-18 08:27:26,L,Receive,-4.0,0,997552,hydrocortisone 1% crea 15gm tube,2,St Joseph's,43,RX
+512,2022-10-18 08:27:26,L,Receive,-50.0,0,1027106,enoxapa 80mg/0.8ml 0.8ml syringe,2,St Joseph's,43,RX
+513,2022-10-18 08:27:26,L,Receive,-4.0,0,1008505,caffeine citra 20mg/1ml 3ml vial,2,St Joseph's,43,RX
+514,2022-10-18 08:27:26,L,Receive,-80.0,0,1038690,levETIRAcetam 100mg/1ml 5ml vial,2,St Joseph's,43,RX
+515,2022-10-18 08:27:26,L,Receive,-6.0,0,990802,bss ophth irrigatio 500ml bottle,2,St Joseph's,43,RX
+516,2022-10-18 08:27:30,I,Issue,1.0,11,1029519,docusate sodium 100mg capsule,2,St Joseph's,58,2NE
+517,2022-10-18 08:27:27,L,Receive,-60.0,0,1026355,ondansetron ODT 4mg tablet,2,St Joseph's,43,RX
+518,2022-10-18 08:27:27,L,Receive,-10.0,0,991746,oxytocin 10units/1mL 30mL VIAL,2,St Joseph's,43,RX
+519,2022-10-18 08:27:27,L,Receive,-13.0,0,990363,tiotropium (SPIRIVA) 18mcg mdi,2,St Joseph's,43,RX
+520,2022-10-18 08:27:27,L,Receive,-4.0,0,984640,throat spray 180ml bottle,2,St Joseph's,43,RX
+521,2022-10-18 08:27:27,L,Receive,-25.0,0,985969,oxytocin (P 10units/1ml 1ml vial,2,St Joseph's,43,RX
+522,2022-10-18 08:27:28,G,Pick,400.0,15,1012734,senna-dss (PERI-COLAC 1ea tablet,2,St Joseph's,43,RX
+523,2022-10-18 08:27:29,V,Event,400.0,15,1004616,senna-dss (PERI-COLAC 1ea tablet,2,St Joseph's,43,RX
+524,2022-10-18 08:27:47,I,Issue,4.0,21,1040556,atorvastatin 20mg tablet,2,St Joseph's,58,2NE
+525,2022-10-18 08:27:54,I,Issue,1.0,6,1035975,sertraline 50mg tablet,2,St Joseph's,644795,4W SPINE
+526,2022-10-18 08:28:02,V,Event,1.0,14,1013578,miconazole 2% oint 56gm tube,2,St Joseph's,43,RX
+527,2022-10-18 08:28:02,G,Pick,1.0,14,1013626,miconazole 2% oint 56gm tube,2,St Joseph's,43,RX
+528,2022-10-18 08:28:04,I,Issue,1.0,76512,984094,.patient's other medications,2,St Joseph's,81,6TN
+529,2022-10-18 08:28:03,I,Issue,1.0,13,1023890,carvedilol (COREG) 6.25mg tablet,2,St Joseph's,58,2NE
+530,2022-10-18 08:28:12,C,Cycle Count,140.0,140,1038492,insulin asp 100units/1ml 3ml pen,2,St Joseph's,43,RX
+531,2022-10-18 08:28:11,I,Issue,1.0,22,1022628,aspirin 81mg chewtab,2,St Joseph's,58,2NE
+532,2022-10-18 08:28:16,V,Event,0.0,140,1038491,insulin asp 100units/1ml 3ml pen,2,St Joseph's,43,RX
+533,2022-10-18 08:28:16,G,Pick,0.0,140,1038492,insulin asp 100units/1ml 3ml pen,2,St Joseph's,43,RX
+534,2022-10-18 08:28:25,G,Pick,0.0,8,1038104,prothrombin comple 500units VIAL,2,St Joseph's,43,RX
+535,2022-10-18 08:28:21,I,Issue,1.0,9,1017971,potassium chloride 10meq tablet,2,St Joseph's,644795,4W SPINE
+536,2022-10-18 08:28:34,I,Issue,1.0,2,1042107,HYDROmorphone 2mg/1ml 1ml vial,2,St Joseph's,88,5E (YAC)
+537,2022-10-18 08:28:37,I,Issue,1.0,6,996503,thiamine (B-1) 100mg tablet,2,St Joseph's,82,7TN
+538,2022-10-18 08:28:38,I,Issue,1.0,15,1038055,albuterol-ipratropium 3ml nebule,2,St Joseph's,644795,4W SPINE
+539,2022-10-18 08:28:40,I,Issue,1.0,8,1045171,carBAMazepine 200mg tablet,2,St Joseph's,644795,4W SPINE
+540,2022-10-18 08:28:59,I,Issue,1.0,19,1003079,torsemide (DEMADEX) 10mg tablet,2,St Joseph's,82,7TN
+541,2022-10-18 08:30:20,I,Issue,1.0,8,1026127,escitalopram 20mg tablet,2,St Joseph's,644795,4W SPINE
+542,2022-10-18 08:30:23,V,Event,1.0,0,1031005,amphetamine/dexamphe 10mg tablet,2,St Joseph's,43,RX
+543,2022-10-18 08:30:29,I,Issue,1.0,42,1043688,nicotine 2mg lozenge,2,St Joseph's,32,VN 
+544,2022-10-18 08:30:33,I,Issue,1.0,7,969506,HYDROcodone/acetamino 1ea tablet,2,St Joseph's,644795,4W SPINE
+545,2022-10-18 08:30:41,V,Event,21.0,997427,1019507,meropenem Vial2Bag 500mg,2,St Joseph's,43,RX
+546,2022-10-18 08:30:46,V,Event,3.0,71,1038792,nicotine 21mg patch,2,St Joseph's,43,RX
+547,2022-10-18 08:30:46,G,Pick,10.0,71,1038793,nicotine 21mg patch,2,St Joseph's,43,RX
+548,2022-10-18 08:30:44,I,Issue,2.0,13,1018902,predniSONE (DELTASON 20mg tablet,2,St Joseph's,80,5TN
+549,2022-10-18 08:30:56,N,Null,0.0,176451,984295,.patient's other medications,2,St Joseph's,644795,4W SPINE
+550,2022-10-18 08:30:58,I,Issue,1.0,72909,984145,.patient's other medications,2,St Joseph's,80,5TN
+551,2022-10-18 08:30:58,I,Issue,1.0,7,1031147,morphine 2mg/1ml 1ml syringe,2,St Joseph's,36,EMD
+552,2022-10-18 08:31:14,I,Issue,1.0,6,1038523,pantoprazole 40mg tablet,2,St Joseph's,644795,4W SPINE
+553,2022-10-18 08:31:42,I,Issue,2.0,22,1039607,metFORMIN 500mg tablet,2,St Joseph's,81,6TN
+554,2022-10-18 08:31:52,I,Issue,1.0,10,1020410,aspirin enteric coat 81mg tablet,2,St Joseph's,81,6TN
+555,2022-10-18 08:31:49,I,Issue,1.0,3,1020979,aspirin enteric coat 81mg tablet,2,St Joseph's,18,CICU12
+556,2022-10-18 08:32:02,V,Event,3.0,54,1018665,haloperidol 5mg/1ml 1ml ampule,2,St Joseph's,43,RX
+557,2022-10-18 08:32:02,G,Pick,3.0,54,1018675,haloperidol 5mg/1ml 1ml ampule,2,St Joseph's,43,RX
+558,2022-10-18 08:32:07,I,Issue,1.0,4,1031430,bisacodyl (DULCOLAX) 10mg supp,2,St Joseph's,82,7TN
+559,2022-10-18 08:32:14,I,Issue,1.0,23,1029530,docusate sodium 100mg capsule,2,St Joseph's,45,VS
+560,2022-10-18 08:32:25,I,Issue,1.0,12,1039691,FLUoxetine 10mg capsule,2,St Joseph's,45,VS
+561,2022-10-18 08:32:17,I,Issue,1.0,9,1019012,fluconazole 100mg tablet,2,St Joseph's,81,6TN
+562,2022-10-18 08:32:25,I,Issue,1.0,13,996941,tamsulosin (FLOMAX 0.4mg capsule,2,St Joseph's,82,7TN
+563,2022-10-18 08:32:26,I,Issue,1.0,3,1040687,meperidine 25mg/1ml 1ml vial,2,St Joseph's,644794,ENT
+564,2022-10-18 08:32:26,I,Issue,1.0,11,1025636,folic acid 1mg tablet,2,St Joseph's,84,7S
+565,2022-10-18 08:32:33,I,Issue,1.0,17,1015440,perflutren lipid micros 2mL VIAL,2,St Joseph's,71,NCR
+566,2022-10-18 08:32:33,I,Issue,1.0,5,991585,multi vit.w/min (Cent 1ea tablet,2,St Joseph's,84,7S
+567,2022-10-18 08:32:35,I,Issue,1.0,9,992077,metoprolol tartrate 25mg tablet,2,St Joseph's,82,7TN
+568,2022-10-18 08:32:42,I,Issue,1.0,21,1040205,atorvastatin 10mg tablet,2,St Joseph's,82,7TN
+569,2022-10-18 08:32:39,I,Issue,1.0,10,998969,ramipril (ALTACE) 5mg capsule,2,St Joseph's,81,6TN
+570,2022-10-18 08:32:49,I,Issue,1.0,12,1001448,carvedilol (COREG 3.125mg tablet,2,St Joseph's,81,6TN
+571,2022-10-18 08:32:53,V,Event,16.0,427,1038782,pantoprazole 40mg vial,2,St Joseph's,43,RX
+572,2022-10-18 08:32:48,I,Issue,1.0,12,1014442,famotidine (PEPCID) 20mg tablet,2,St Joseph's,84,7S
+573,2022-10-18 08:32:52,I,Issue,2.0,4,991569,propranolol (INDERAL 10mg tablet,2,St Joseph's,81,6TN
+574,2022-10-18 08:33:00,I,Issue,1.0,76511,984094,.patient's other medications,2,St Joseph's,81,6TN
+575,2022-10-18 08:33:00,I,Issue,1.0,23,1014619,famotidine (PEPCID) 20mg tablet,2,St Joseph's,81,6TN
+576,2022-10-18 08:33:14,G,Pick,5.0,69,1037815,cetirizine 10mg tab,2,St Joseph's,43,RX
+577,2022-10-18 08:35:11,I,Issue,1.0,22,1039653,lamoTRIgine 25mg tablet,2,St Joseph's,45,VS
+578,2022-10-18 08:35:26,I,Issue,1.0,4,1045156,ceFAZolin 2 gm/50 m 1each duplex,2,St Joseph's,12,OR
+579,2022-10-18 08:35:26,I,Issue,1.0,72908,984145,.patient's other medications,2,St Joseph's,80,5TN
+580,2022-10-18 08:35:28,I,Issue,1.0,953455,984256,.patient's other medications,2,St Joseph's,84,7S
+581,2022-10-18 08:35:30,I,Issue,1.0,27,1038705,pantoprazole 40mg tablet,2,St Joseph's,81,6TN
+582,2022-10-18 08:35:38,K,Destock,1.0,8,1017154,tocilizumab 20mg/1ml 20ml vial,2,St Joseph's,43,RX
+583,2022-10-18 08:35:41,I,Issue,2.0,24,1038078,lactobacillus acidoph 1ea tablet,2,St Joseph's,81,6TN
+584,2022-10-18 08:35:43,N,Null,0.0,12,1001565,amitriptyline (ELAVI 25mg tablet,2,St Joseph's,84,7S
+585,2022-10-18 08:35:53,D,Discrepancy,2.0,6,1021281,tocilizumab 20mg/1ml 10ml vial,2,St Joseph's,43,RX
+586,2022-10-18 08:35:53,C,Cycle Count,6.0,6,1021281,tocilizumab 20mg/1ml 10ml vial,2,St Joseph's,43,RX
+587,2022-10-18 08:35:56,V,Event,0.0,6,1021280,tocilizumab 20mg/1ml 10ml vial,2,St Joseph's,43,RX
+588,2022-10-18 08:36:08,I,Issue,1.0,25,1045088,aspirin 325mg tablet,2,St Joseph's,4,JOINT
+589,2022-10-18 08:36:42,I,Issue,1.0,95756,984882,.patient's other medications,2,St Joseph's,4,JOINT
+590,2022-10-18 08:36:53,I,Issue,1.0,10,1029519,docusate sodium 100mg capsule,2,St Joseph's,58,2NE
+591,2022-10-18 08:37:14,I,Issue,1.0,9,1022805,ferrous sulfate 325mg tablet,2,St Joseph's,58,2NE
+592,2022-10-18 08:37:14,I,Issue,1.0,953454,984256,.patient's other medications,2,St Joseph's,84,7S
+593,2022-10-18 08:37:19,I,Issue,1.0,12,1028259,escitalopram 20mg tablet,2,St Joseph's,644795,4W SPINE
+594,2022-10-18 08:37:29,I,Issue,1.0,43,1014989,famotidine (PEPCID) 20mg tablet,2,St Joseph's,644795,4W SPINE
+595,2022-10-18 08:37:37,I,Issue,2.0,16,1037038,citalopram 20mg tablet,2,St Joseph's,64,4P1
+596,2022-10-18 08:37:39,I,Issue,1.0,9,988597,ezetimibe (ZETIA) 10mg tablet,2,St Joseph's,84,7S
+597,2022-10-18 08:37:42,I,Issue,1.0,24,1035827,OLANZapine ODT 5mg tablet,2,St Joseph's,58,2NE
+598,2022-10-18 08:37:48,I,Issue,1.0,5,1041980,lisinopril 20mg tablet,2,St Joseph's,64,4P1
+599,2022-10-18 08:37:56,I,Issue,1.0,11,1001895,aspirin enteric coa 325mg tablet,2,St Joseph's,84,7S
+600,2022-10-18 08:38:05,I,Issue,2.0,17,992069,senna-dss (PERI-COLAC 1ea tablet,2,St Joseph's,644795,4W SPINE
+601,2022-10-18 08:38:15,V,Event,2.0,132,1030702,LORazepam (ATIV 2mg/1ml 1ml vial,2,St Joseph's,43,RX
+602,2022-10-18 08:38:15,G,Pick,2.0,132,1030701,LORazepam (ATIV 2mg/1ml 1ml vial,2,St Joseph's,43,RX
+603,2022-10-18 08:38:11,I,Issue,1.0,13,996677,metoprolol tartrate 25mg tablet,2,St Joseph's,82,7TN
+604,2022-10-18 08:38:14,I,Issue,1.0,109690,984356,.patient's other medications,2,St Joseph's,644795,4W SPINE
+605,2022-10-18 08:38:15,I,Issue,1.0,18,1002220,LORazepam (ATIVAN) 1mg tablet,2,St Joseph's,81,6TN
+606,2022-10-18 08:38:28,I,Issue,1.0,13,1038138,albuterol-ipratropium 3ml nebule,2,St Joseph's,58,2NE
+607,2022-10-18 08:38:27,V,Event,15.0,0,1030977,HYDROcodone/acetamino 1ea tablet,2,St Joseph's,43,RX
+608,2022-10-18 08:38:38,I,Issue,1.0,57653,984135,.patient's other medications,2,St Joseph's,64,4P1
+609,2022-10-18 08:38:39,I,Issue,1.0,17,1020417,aspirin enteric coat 81mg tablet,2,St Joseph's,80,5TN
+610,2022-10-18 08:38:48,I,Issue,1.0,7,1041584,hydrALAZINE 25mg tablet,2,St Joseph's,81,6TN
+611,2022-10-18 08:38:50,I,Issue,1.0,13,1039634,doxycycline 100mg tablet,2,St Joseph's,64,4P1
+612,2022-10-18 08:39:12,I,Issue,1.0,14,1022200,enoxapa 80mg/0.8ml 0.8ml syringe,2,St Joseph's,62,3P1
+613,2022-10-18 08:40:14,I,Issue,1.0,7,992043,pregabalin (LYRICA) 50mg capsule,2,St Joseph's,84,7S
+614,2025-10-18 08:40:18,I,Issue,1.0,50,990272,ipratro 0.5mg/2.5ml 2.5ml nebule,2,St Joseph's,64,4P1
+615,2022-10-18 08:40:23,N,Null,0.0,0,1009444,"Aux 1, Zone 5",2,St Joseph's,82,7TN
+616,2022-10-18 08:40:30,N,Null,0.0,5948,1012284,0.9% sodium chloride 100ml bag,2,St Joseph's,43,RX
+617,2022-10-18 08:40:27,I,Issue,1.0,19,991516,metoprolol succinate 50mg tablet,2,St Joseph's,80,5TN
+618,2022-10-18 08:40:30,I,Issue,1.0,11,1042731,memantine 10mg tablet,2,St Joseph's,62,3P1
+619,2022-10-18 08:40:33,I,Issue,1.0,8,986694,prenatal multivit-min 1ea tablet,2,St Joseph's,25,BP
+620,2022-10-18 08:40:36,V,Event,10.0,0,1039297,morphine PF 1mg/1ml 10ml ampule,2,St Joseph's,43,RX
+621,2022-10-18 08:40:37,I,Issue,1.0,132,1003325,ibuprofen (ADVIL) 400mg tablet,2,St Joseph's,25,BP
+622,2022-10-18 08:40:36,I,Issue,1.0,7,1038521,pantoprazole 40mg tablet,2,St Joseph's,80,5TN
+623,2022-10-18 08:40:35,I,Issue,1.0,3,1036079,losartan potassium 50mg tablet,2,St Joseph's,84,7S
+624,2022-10-18 08:40:44,I,Issue,1.0,90,1028757,docusate sodium 100mg capsule,2,St Joseph's,25,BP
+625,2022-10-18 08:41:11,I,Issue,1.0,3,1040562,cetirizine 10mg tab,2,St Joseph's,81,6TN
+626,2022-10-18 08:41:31,I,Issue,1.0,5,1035573,calcium w/ vitamin d 1tab tablet,2,St Joseph's,644795,4W SPINE
+627,2022-10-18 08:41:34,I,Issue,1.0,6,1015274,famotidine in 20mg/50ml 50ml bag,2,St Joseph's,644795,4W SPINE
+628,2022-10-18 08:41:33,I,Issue,1.0,990503,1010140,.patient's other medications,2,St Joseph's,62,3P1
+629,2022-10-18 08:41:38,I,Issue,1.0,6,1014503,enoxapa 30mg/0.3ml 0.3ml syringe,2,St Joseph's,644795,4W SPINE
+630,2022-10-18 08:41:48,I,Issue,1.0,7,1026288,escitalopram 10mg tablet,2,St Joseph's,644795,4W SPINE
+631,2022-10-18 08:41:55,G,Pick,24.0,96,1041123,HYDROmorphone 8mg tablet,2,St Joseph's,43,RX
+632,2022-10-18 08:41:57,K,Destock,1.0,1,1040200,enoxaparin 100mg/1ml 3ml VIAL,2,St Joseph's,15,ONCOLOGY
+633,2022-10-18 08:42:07,I,Issue,1.0,13,1038729,pantoprazole 20mg tablet,2,St Joseph's,80,5TN
+634,2022-10-18 08:42:03,I,Issue,1.0,983162,984512,.patient's other medications,2,St Joseph's,644795,4W SPINE
+635,2022-10-18 08:42:12,V,Event,18.0,64,1038123,acetaminophe 10mg/1mL 100mL vial,2,St Joseph's,43,RX
+636,2022-10-18 08:42:19,I,Issue,1.0,4,1006086,multi vit.w/min (Ocuv 1ea tablet,2,St Joseph's,644795,4W SPINE
+637,2022-10-18 08:42:19,K,Destock,1.0,8,1043391,levoFLOXac 750mg/150ml 150ml bag,2,St Joseph's,43,RX
+638,2022-10-18 08:42:28,I,Issue,1.0,7,1028746,docusate sodium 100mg capsule,2,St Joseph's,644795,4W SPINE
+639,2022-10-18 08:42:33,I,Issue,1.0,52913,984166,.patient's other medications,2,St Joseph's,81,6TN
+640,2022-10-18 08:42:33,N,Null,0.0,3,1036079,losartan potassium 50mg tablet,2,St Joseph's,84,7S
+641,2022-10-18 08:42:35,I,Issue,1.0,72907,984145,.patient's other medications,2,St Joseph's,80,5TN
+642,2022-10-18 08:42:47,I,Issue,1.0,997890,1035135,.patient's other medications,2,St Joseph's,644795,4W SPINE
+643,2022-10-18 08:42:47,I,Issue,1.0,9,1031245,lactulose (CEPHULAC) 20gm packet,2,St Joseph's,80,5TN
+644,2022-10-18 08:43:00,I,Issue,1.0,12,1037947,metFORMIN 500mg tablet,2,St Joseph's,644795,4W SPINE
+645,2022-10-18 08:43:08,V,Event,8.0,114,1035351,polyethylene glycol 3 17g packet,2,St Joseph's,43,RX
+646,2022-10-18 08:43:08,G,Pick,8.0,114,1035352,polyethylene glycol 3 17g packet,2,St Joseph's,43,RX
+647,2022-10-18 08:43:02,I,Issue,1.0,12,1012254,0.9% sodium chloride 1000ml bag,2,St Joseph's,36,EMD
+648,2022-10-18 08:43:06,I,Issue,1.0,7,993636,LORazepam (ATIVAN) 1mg tablet,2,St Joseph's,644795,4W SPINE
+649,2022-10-18 08:44:24,I,Issue,1.0,7,1035386,multi vit.therapeutic 1ea tablet,2,St Joseph's,62,3P1
+650,2022-10-18 08:44:33,I,Issue,1.0,2,1028194,buPROPion XL 300mg tablet,2,St Joseph's,81,6TN
+651,2022-10-18 08:44:34,I,Issue,1.0,2,1019086,lidocaine 100mg/5ml 5ml syringe,2,St Joseph's,89,STOP
+652,2022-10-18 08:44:35,I,Issue,1.0,9,1035936,lisinopril 10mg tablet,2,St Joseph's,80,5TN
+653,2022-10-18 08:44:47,I,Issue,2.0,15,1039066,oxyCODONE IR 5mg tablet,2,St Joseph's,25,BP
+654,2022-10-18 08:45:04,K,Destock,1.0,16,1026635,lidocaine 1% w/ Epi 30ml vial,2,St Joseph's,644794,ENT
+655,2022-10-18 09:00:26,R,Return,-1.0,82819,1000640,.patient's other medications,2,St Joseph's,82,7TN
+656,2022-10-18 09:00:32,N,Null,0.0,0,1008643,"Aux 1, Zone 3",2,St Joseph's,64,4P1
+657,2022-10-18 09:00:32,I,Issue,2.0,15,992290,metoprolol succinate 50mg tablet,2,St Joseph's,82,7TN
+658,2022-10-18 09:00:35,I,Issue,1.0,6,1031764,ropivacaine (N 5mg/1ml 30ml vial,2,St Joseph's,44,SDS
+659,2022-10-18 09:00:34,I,Issue,2.0,4,1037757,DULoxetine 30mg capsule,2,St Joseph's,62,3P1
+660,2022-10-18 09:00:56,N,Null,0.0,57652,984135,.patient's other medications,2,St Joseph's,64,4P1
+661,2022-10-18 09:01:28,I,Issue,1.0,7,1042270,neostigmine 1mg/1mL 5mL syringe,2,St Joseph's,12,OR
+662,2022-10-18 09:01:31,I,Issue,2.0,3,1026593,midazolam (VERS 2mg/2ml 2ml vial,2,St Joseph's,44,SDS
+663,2022-10-18 09:01:32,I,Issue,1.0,12,1027811,amLODIPine 5mg tablet,2,St Joseph's,82,7TN
+664,2022-10-18 09:01:36,I,Issue,3.0,7,1035028,propofol (D 10mg/1ml 20ml ampule,2,St Joseph's,44,SDS
+665,2022-10-18 09:01:35,I,Issue,1.0,97350,1039590,.patient's other medications,2,St Joseph's,62,3P1
+666,2022-10-18 09:01:46,O,Supplemental Restock,-5.0,5,1003843,midazolam (VERS 2mg/2ml 2ml vial,2,St Joseph's,29,CATHLAB 
+667,2022-10-18 09:01:48,N,Null,0.0,57652,984135,.patient's other medications,2,St Joseph's,64,4P1
+668,2022-10-18 09:02:01,O,Supplemental Restock,-1.0,1,1003970,midazolam (VERS 2mg/2ml 2ml vial,2,St Joseph's,29,CATHLAB 
+669,2022-10-18 09:02:10,I,Issue,1.0,6,1041502,traMADol 50mg tablet,2,St Joseph's,32,VN 
+670,2022-10-18 09:02:16,V,Event,2.0,8,995640,labetalol ( 20mg/4ml 4ml syringe,2,St Joseph's,43,RX
+671,2022-10-18 09:02:16,G,Pick,2.0,8,1010578,labetalol ( 20mg/4ml 4ml syringe,2,St Joseph's,43,RX
+672,2022-10-18 09:02:34,O,Supplemental Restock,-10.0,10,1037031,fentaNYL 100mCg/2ml 2ml vial,2,St Joseph's,29,CATHLAB 
+673,2022-10-18 09:02:42,V,Event,4.0,6,990932,sod phosphate / bip 135ml bottle,2,St Joseph's,43,RX
+674,2022-10-18 09:02:38,I,Issue,1.0,10,1045118,aspirin 325mg tablet,2,St Joseph's,84,7S
+675,2022-10-18 09:02:41,I,Issue,1.0,21,1035332,potassium chloride 20MEQ tablet,2,St Joseph's,82,7TN
+676,2022-10-18 09:02:50,R,Return,-1.0,998420,984586,.patient's other medications,2,St Joseph's,45,VS
+677,2022-10-18 09:02:48,O,Supplemental Restock,-3.0,3,1037034,fentaNYL 100mCg/2ml 2ml vial,2,St Joseph's,29,CATHLAB 
+678,2022-10-18 09:03:15,I,Issue,1.0,11,991983,ferrous sulfate 325mg tablet,2,St Joseph's,25,BP
+679,2022-10-18 09:03:19,K,Destock,1.0,7,1014307,leucovorin (WELLCOVOR 100mg vial,2,St Joseph's,15,ONCOLOGY
+680,2022-10-18 09:03:21,I,Issue,2.0,4,992740,senna-dss (PERI-COLAC 1ea tablet,2,St Joseph's,84,7S
+681,2022-10-18 09:03:27,I,Issue,1.0,88,1028757,docusate sodium 100mg capsule,2,St Joseph's,25,BP
+682,2022-10-18 09:03:24,I,Issue,1.0,15,1033917,apixaban 5mg TABLET,2,St Joseph's,82,7TN
+683,2022-10-18 09:03:26,N,Null,0.0,0,1008644,"Aux 1, Zone 0",2,St Joseph's,62,3P1
+684,2022-10-18 09:03:49,V,Event,10.0,48,1038330,predniSONE 10mg tablet,2,St Joseph's,43,RX
+685,2022-10-18 09:05:15,V,Event,0.0,0,1037543,cefepime 2gm duplex,2,St Joseph's,43,RX
+686,2022-10-18 09:05:17,I,Issue,1.0,7,1030235,escitalopram 10mg tablet,2,St Joseph's,64,4P1
+687,2022-10-18 09:05:14,I,Issue,1.0,7,1007803,thiamine (B-1) 100mg tablet,2,St Joseph's,644795,4W SPINE
+688,2022-10-18 09:05:19,I,Issue,1.0,4,1037372,fentaNYL 100mCg/2ml 2ml vial,2,St Joseph's,44,SDS
+689,2022-10-18 09:05:27,V,Event,1.0,29,984645,sodium pol 15gm/60ml 60ml bottle,2,St Joseph's,43,RX
+690,2022-10-18 09:05:26,I,Issue,1.0,12,1029565,famotidine (PEPCID) 20mg tablet,2,St Joseph's,64,4P1
+691,2022-10-18 13:20:22,I,Issue,4.0,2,1041308,rOPINIRole 0.25mg tablet,2,St Joseph's,84,7S
+692,2022-10-18 13:20:48,V,Event,1.0,24,1045198,amitriptyline 5mg SPLITab,2,St Joseph's,43,RX
+693,2022-10-18 13:20:48,G,Pick,1.0,24,1045199,amitriptyline 5mg SPLITab,2,St Joseph's,43,RX
+694,2022-10-18 13:20:42,W,Waste,1.0,0,970839,midazolam (VERS 2mg/2ml 2ml vial,2,St Joseph's,89,STOP
+695,2022-10-18 13:20:57,V,Event,2.0,101,1037096,ticagrelor 90MG tab,2,St Joseph's,43,RX
+696,2022-10-18 13:21:23,V,Event,2.0,332,1045310,budesonide 0.5mg/2ml 2ml nebule,2,St Joseph's,43,RX
+697,2022-10-18 13:22:02,K,Destock,1.0,11,1036539,fluorour 5000mg/100ml 100ml vial,2,St Joseph's,15,ONCOLOGY
+698,2022-10-18 13:22:13,V,Event,1.0,60,997535,buPROPion XL (WELLB 150mg tablet,2,St Joseph's,43,RX
+699,2022-10-18 13:22:13,G,Pick,2.0,60,1008908,buPROPion XL (WELLB 150mg tablet,2,St Joseph's,43,RX
+700,2022-10-18 13:22:31,V,Event,2.0,30,984255,dornase alpha (PUL 1MG/1ML 2.5ML,2,St Joseph's,43,RX
+701,2022-10-18 13:22:31,G,Pick,2.0,30,1012781,dornase alpha (PUL 1MG/1ML 2.5ML,2,St Joseph's,43,RX
+702,2022-10-18 13:22:56,V,Event,1.0,59,1038436,hydroxychloroquine 200mg tablet,2,St Joseph's,43,RX
+703,2022-10-18 13:22:56,G,Pick,1.0,59,1038437,hydroxychloroquine 200mg tablet,2,St Joseph's,43,RX
+704,2022-10-18 13:23:05,G,Pick,1.0,311,1014468,enoxapa 40mg/0.4ml 0.4ml syringe,2,St Joseph's,43,RX
+705,2022-10-18 13:23:04,I,Issue,1.0,61110,984353,.patient's other medications,2,St Joseph's,84,7S
+706,2022-10-18 13:23:07,I,Issue,1.0,15,1041433,fentaNYL 100mCg/2ml 2ml vial,2,St Joseph's,81,6TN
+707,2022-10-18 13:23:23,K,Destock,2.0,124,1021296,finasteride (PROSCAR) 5mg tablet,2,St Joseph's,43,RX
+708,2022-10-18 13:23:30,G,Pick,2.0,116,1038914,NIFEdipine 30mg tablet,2,St Joseph's,43,RX
+709,2022-10-18 13:23:31,V,Event,1.0,209,988827,finasteride (PROSCAR) 5mg tablet,2,St Joseph's,43,RX
+710,2022-10-18 13:23:31,G,Pick,2.0,209,1012352,finasteride (PROSCAR) 5mg tablet,2,St Joseph's,43,RX
+711,2022-10-18 13:23:45,W,Waste,0.5,0,1036818,fentaNYL 100mCg/2ml 2ml vial,2,St Joseph's,36,EMD
+712,2022-10-18 13:23:50,I,Issue,1.0,7,1023626,nicotine 14mg patch,2,St Joseph's,84,7S
+713,2022-10-18 13:24:05,V,Event,2.0,3,1041895,Carvedilol 1.56mg SPLITab,2,St Joseph's,43,RX
+714,2022-10-18 13:24:12,G,Pick,1.0,39,1023267,buPROPion XL 300mg tablet,2,St Joseph's,43,RX
+715,2022-10-18 13:24:06,I,Issue,1.0,176449,984295,.patient's other medications,2,St Joseph's,644795,4W SPINE
+716,2022-10-18 13:24:23,I,Issue,1.0,13,1042287,succinylcholi 20mg/1ml 10ml vial,2,St Joseph's,12,OR
+717,2025-10-18 13:24:26,I,Issue,1.0,24,1041678,lidocaine  1% 10mg/1ml 5ml vial,2,St Joseph's,12,OR
+718,2022-10-18 13:24:27,I,Issue,1.0,14,1045110,aspirin 325mg tablet,2,St Joseph's,30,CVOPC
+719,2022-10-18 13:24:36,V,Event,1.0,45,1044970,pantoprazole 40mg packet,2,St Joseph's,43,RX
+720,2022-10-18 13:24:49,V,Event,2.0,22,997897,arformotero 15mcg/2ml 2ml nebule,2,St Joseph's,43,RX
+721,2022-10-18 13:27:07,G,Pick,2.0,239,1042463,budesonide 0.25mg/2ml 2ml nebule,2,St Joseph's,43,RX
+722,2022-10-18 13:27:17,I,Issue,1.0,19,1014619,famotidine (PEPCID) 20mg tablet,2,St Joseph's,81,6TN
+723,2022-10-18 13:27:23,V,Event,1.0,149,1000015,nortriptyline (PAME 10mg capsule,2,St Joseph's,43,RX
+724,2022-10-18 13:27:23,G,Pick,1.0,149,1009569,nortriptyline (PAME 10mg capsule,2,St Joseph's,43,RX
+725,2022-10-18 13:27:25,V,Event,3.0,110,1038389,QUEtiapine XR 50mg tablet,2,St Joseph's,43,RX
+726,2022-10-18 13:27:43,G,Pick,1.0,62,1009951,cyanocobalamin (VI 500mcg tablet,2,St Joseph's,43,RX
+727,2022-10-18 13:36:31,G,Pick,1.0,6,1044371,carBAMazepine 100mg SPLITab,2,St Joseph's,43,RX
+728,2022-10-18 13:36:48,V,Event,1.0,36,1037587,vitamin B-12 250mCg SPLITab,2,St Joseph's,43,RX
+729,2022-10-18 13:36:48,G,Pick,1.0,36,1037586,vitamin B-12 250mCg SPLITab,2,St Joseph's,43,RX
+730,2022-10-18 13:36:44,I,Issue,1.0,0,1027188,ondansetron 4mg/2ml 2ml vial,2,St Joseph's,644797,OPO
+731,2022-10-18 13:36:51,V,Event,0.0,5942,985530,0.9% sodium chloride 100ml bag,2,St Joseph's,43,RX
+732,2022-10-18 13:37:01,I,Issue,4.0,31,1034434,albuter 2.5mg/0.5ml 0.5ml nebule,2,St Joseph's,36,EMD
+733,2022-10-18 13:37:18,V,Event,2.0,18,997897,arformotero 15mcg/2ml 2ml nebule,2,St Joseph's,43,RX
+734,2022-10-18 13:37:18,G,Pick,4.0,18,1012299,arformotero 15mcg/2ml 2ml nebule,2,St Joseph's,43,RX
+735,2022-10-18 13:37:19,R,Return,-2.0,35,985285,lidocaine 1% sod bic 5ml syringe,2,St Joseph's,29,CATHLAB 
+736,2022-10-18 13:37:13,N,Null,0.0,0,1008638,"Aux 1, Zone 3",2,St Joseph's,80,5TN
+737,1970-01-01 00:00:00,K,Destock,18.0,6,1032793,glycopyrrolat 0.2mg/1ml 1ml vial,2,St Joseph's,44,SDS
+738,2022-10-18 13:37:49,K,Destock,1.0,4,1019336,darbepoet 500mCg/1ml 1ml syringe,2,St Joseph's,15,ONCOLOGY
+739,2022-10-18 13:37:59,I,Issue,1.0,2,1004380,morphine or 0.4mg/1mL 0.5mL each,2,St Joseph's,24,NICU
+740,2022-10-18 13:38:04,R,Return,-1.0,3,1013579,famotidine (PE 20mg/2ml 2ml vial,2,St Joseph's,25,BP
+741,2022-10-18 13:38:16,K,Destock,10.0,13,1033681,sodium bica 50meq/50ml 50ml vial,2,St Joseph's,44,SDS
+742,2022-10-18 13:38:26,V,Event,2.0,38,1041555,formoterol fumarat 20mCg/2mL neb,2,St Joseph's,43,RX
+743,2022-10-18 13:38:26,G,Pick,2.0,38,1041544,formoterol fumarat 20mCg/2mL neb,2,St Joseph's,43,RX
+744,2022-10-18 13:38:42,I,Issue,1.0,8,1032383,cyclobenzaprine (FLEX 5mg tablet,2,St Joseph's,644795,4W SPINE
+745,2022-10-18 13:38:52,G,Pick,8.0,62,1037574,chlorproMAZINE 100mg tablet,2,St Joseph's,43,RX
+746,2022-10-18 13:38:49,I,Issue,1.0,0,1021272,phenyleph 0.1mg/1ml 10ml syringe,2,St Joseph's,12,OR
+747,2022-10-18 13:39:01,V,Event,2.0,132,1040574,flecainide 50mg tablet,2,St Joseph's,43,RX
+748,2022-10-18 13:39:01,G,Pick,2.0,132,1039307,flecainide 50mg tablet,2,St Joseph's,43,RX
+749,2022-10-18 13:39:03,R,Return,-1.0,13,1018404,heparin 1unit/1mL 5mL syringe,2,St Joseph's,24,NICU
+750,2022-10-18 13:39:46,V,Event,2.0,82,1043380,oxazepam 15mg CAPSULE,2,St Joseph's,43,RX
+751,2022-10-18 13:39:38,W,Waste,0.82,0,1004391,morphine or 0.4mg/1mL 0.5mL each,2,St Joseph's,24,NICU
+752,2022-10-18 13:39:50,I,Issue,1.0,6,1025569,clonazePAM 0.5mg tablet,2,St Joseph's,32,VN 
+753,2022-10-18 13:39:53,R,Return,-1.0,61110,984353,.patient's other medications,2,St Joseph's,84,7S
+754,2022-10-18 13:39:56,W,Waste,0.2,0,1045364,rocuronium 10mg/1ml 5ml vial,2,St Joseph's,12,OR
+755,2022-10-18 13:40:01,K,Destock,12.0,13,1041492,bupivacaine w/ epi 0.2 50ml vial,2,St Joseph's,44,SDS
+756,2022-10-18 13:40:19,G,Pick,1.0,24,1009098,predniSONE (DELTASON 50mg tablet,2,St Joseph's,43,RX
+757,2022-10-18 13:41:43,V,Event,2.0,45,1020132,dabigatran 150mg CAPSULE,2,St Joseph's,43,RX
+758,2022-10-18 13:41:34,I,Issue,1.0,2,1020773,LORazepam (ATIV 2mg/1ml 1ml vial,2,St Joseph's,36,EMD
+759,2022-10-18 13:41:47,D,Discrepancy,1.0,137,1037517,ceFAZolin 2 gm/50 m 1each duplex,2,St Joseph's,43,RX
+760,2022-10-18 13:41:40,S,Restock,-1.0,1,1018525,open heart 1ea box,2,St Joseph's,33,ANES
+761,2022-10-18 13:41:48,C,Cycle Count,137.0,137,1037517,ceFAZolin 2 gm/50 m 1each duplex,2,St Joseph's,43,RX
+762,2022-10-18 13:41:58,I,Issue,4.0,27,1034434,albuter 2.5mg/0.5ml 0.5ml nebule,2,St Joseph's,36,EMD
+763,2022-10-18 13:42:04,N,Null,0.0,0,1010350,"Aux 1, Zone 2",2,St Joseph's,25,BP
+764,2022-10-18 13:42:15,K,Destock,3.0,13,1044810,mastisol adhesive ex liqd 1each,2,St Joseph's,44,SDS
+765,2022-10-18 13:42:23,V,Event,2.0,167,1039937,pantoprazole 40mg tablet,2,St Joseph's,43,RX
+766,2022-10-18 13:42:23,G,Pick,2.0,167,1039647,pantoprazole 40mg tablet,2,St Joseph's,43,RX
+767,2022-10-18 13:42:32,I,Issue,1.0,12,1036816,hepatitis 5mcg/0.5ml 0.5ml vial,2,St Joseph's,25,BP
+768,2022-10-18 13:42:57,G,Pick,2.0,93,1041334,carBAMazepine 200mg tablet,2,St Joseph's,43,RX
+769,2022-10-18 13:43:46,I,Issue,3.0,2,1038829,oxyCODONE IR 5mg tablet,2,St Joseph's,44,SDS
+770,2022-10-18 13:43:54,G,Pick,6.0,42,1033160,Lanthanum 500mg TABLET,2,St Joseph's,43,RX
+771,2022-10-18 13:44:15,V,Event,1.0,49,988091,melatonin 5mg tablet,2,St Joseph's,43,RX
+772,2022-10-18 13:44:15,G,Pick,1.0,49,1008992,melatonin 5mg tablet,2,St Joseph's,43,RX
+773,2022-10-18 13:44:07,I,Issue,1.0,1,1015118,morphine 2mg/1ml 1ml syringe,2,St Joseph's,84,7S
+774,2022-10-18 13:44:30,I,Issue,2.0,8,1038633,morphine CR 30mg tablet,2,St Joseph's,82,7TN
+775,2022-10-18 13:44:38,V,Event,1.0,363,1004149,levothyroxine (LEVO 25mcg tablet,2,St Joseph's,43,RX
+776,2022-10-18 13:44:49,V,Event,1.0,47,1038330,predniSONE 10mg tablet,2,St Joseph's,43,RX
+777,2022-10-18 13:44:49,G,Pick,1.0,47,1038308,predniSONE 10mg tablet,2,St Joseph's,43,RX
+778,2022-10-18 13:45:01,V,Event,2.0,107,1002269,carbidopa-levodopa ER 1ea tablet,2,St Joseph's,43,RX
+779,2022-10-18 13:45:01,G,Pick,2.0,107,1009348,carbidopa-levodopa ER 1ea tablet,2,St Joseph's,43,RX
+780,2022-10-18 13:45:19,I,Issue,2.0,1,1038449,oxyCODONE IR 5mg tablet,2,St Joseph's,82,7TN
+781,2022-10-18 13:45:37,V,Event,1.0,124,1014509,predniSONE (DELTASON 20mg tablet,2,St Joseph's,43,RX
+782,2022-10-18 13:45:55,V,Event,1.0,20,1039369,SITagliptin Phospha 25mg SPLITab,2,St Joseph's,43,RX
+783,2022-10-18 13:45:55,G,Pick,1.0,20,1039374,SITagliptin Phospha 25mg SPLITab,2,St Joseph's,43,RX
+784,2022-10-18 13:46:16,V,Event,1.0,12,1044470,mirtazapine 7.5mg SPLITab,2,St Joseph's,43,RX
+785,2022-10-18 13:46:16,V,Event,1.0,12,1044470,mirtazapine 7.5mg SPLITab,2,St Joseph's,43,RX
+786,2022-10-18 13:46:55,G,Pick,1.0,6,1036199,bisoprolol fumarat 2.5mg SPLITab,2,St Joseph's,43,RX
+787,2022-10-18 13:47:04,V,Event,1.0,100,1037096,ticagrelor 90MG tab,2,St Joseph's,43,RX
+788,2022-10-18 13:47:40,I,Issue,1.0,953441,984256,.patient's other medications,2,St Joseph's,84,7S
+789,2022-10-18 13:47:54,N,Null,0.0,18,1031279,Atazanavir Sulfate 300mg CAPSULE,2,St Joseph's,43,RX
+790,2022-10-18 13:47:56,N,Null,0.0,18,1031279,Atazanavir Sulfate 300mg CAPSULE,2,St Joseph's,43,RX
+791,2022-10-18 13:47:56,R,Return,-1.0,79648,985282,.patient's other medications,2,St Joseph's,64,4P1
+792,2022-10-18 13:48:55,V,Event,1.0,17,1002158,Atazanavir Sulfate 300mg CAPSULE,2,St Joseph's,43,RX
+793,2022-10-18 13:52:06,G,Pick,0.0,31,1033428,immune glo 10gm/100mL 100mL vial,2,St Joseph's,43,RX
+794,2022-10-18 13:52:13,G,Pick,0.0,70,1008750,heparin ( 1000units/1ml 2ml vial,2,St Joseph's,43,RX
+795,2022-10-18 13:52:07,I,Issue,1.0,4,1045128,scopolamine 1.5mg patch,2,St Joseph's,76,PREPOST
+796,2022-10-18 13:52:20,D,Discrepancy,1.0,74,1038471,insulin det 100units/1ml 3ml pen,2,St Joseph's,43,RX
+797,2022-10-18 13:52:20,C,Cycle Count,74.0,74,1038471,insulin det 100units/1ml 3ml pen,2,St Joseph's,43,RX
+798,2022-10-18 13:52:24,G,Pick,1.0,790,1012385,divalproex (DEPAKOT 500mg tablet,2,St Joseph's,43,RX
+799,2022-10-18 13:52:23,I,Issue,1.0,2,1015590,metoclopramide 10mg/2ml 2ml vial,2,St Joseph's,76,PREPOST
+800,2022-10-18 13:52:45,V,Event,1.0,28,1014829,bacitracin oint tube,2,St Joseph's,43,RX
+801,2022-10-18 13:52:45,G,Pick,1.0,28,1014486,bacitracin oint tube,2,St Joseph's,43,RX
+802,2022-10-18 13:52:58,V,Event,1.0,360,1037636,DULoxetine 30mg capsule,2,St Joseph's,43,RX
+803,2022-10-18 13:52:58,G,Pick,1.0,360,1037637,DULoxetine 30mg capsule,2,St Joseph's,43,RX
+804,2022-10-18 13:53:13,W,Waste,0.75,0,1040044,HYDROmorphone 2mg/1ml 1ml vial,2,St Joseph's,84,7S
+805,2022-10-18 13:53:50,G,Pick,1.0,19,1008823,salmeterol-fluticasone 2 1ea mdi,2,St Joseph's,43,RX
+806,2022-10-18 13:53:42,I,Issue,1.0,13,1042348,rocuronium 10mg/1ml 5ml vial,2,St Joseph's,12,OR
+807,2022-10-18 13:53:45,O,Supplemental Restock,-10.0,15,1037093,EPINEPHrine 1mg/1ml 1ml ampule,2,St Joseph's,44,SDS
+808,2022-10-18 13:53:46,I,Issue,1.0,14,1042492,neostigmine 1mg/1mL 5mL syringe,2,St Joseph's,12,OR
+809,2022-10-18 13:53:49,I,Issue,1.0,4,989056,labetalol (NOR 5mg/1ml 20ml vial,2,St Joseph's,18,CICU12
+810,2022-10-18 13:54:19,G,Pick,1.0,26,1008655,tiotropium (SPIRIVA) 18mcg mdi,2,St Joseph's,43,RX
+811,2022-10-18 13:54:24,I,Issue,1.0,61109,984353,.patient's other medications,2,St Joseph's,84,7S
+812,2022-10-18 13:54:32,G,Pick,6.0,163,1033488,gabapentin 400mg capsule,2,St Joseph's,43,RX
+813,2022-10-18 13:54:34,D,Discrepancy,2.0,2,1031782,lidocaine  1% 10mg/1ml 5ml vial,2,St Joseph's,44,SDS
+814,2022-10-18 13:54:36,I,Issue,2.0,2,1037021,fentaNYL 100mCg/2ml 2ml vial,2,St Joseph's,89,STOP
+815,2022-10-18 13:54:34,O,Supplemental Restock,-16.0,18,1031782,lidocaine  1% 10mg/1ml 5ml vial,2,St Joseph's,44,SDS
+816,2022-10-18 13:55:16,G,Pick,1.0,33,1043875,rosuvastatin (CRESTO 40mg tablet,2,St Joseph's,43,RX
+817,2022-10-18 13:55:11,I,Issue,1.0,7,1002544,0.9% sodium chloride 1000ml bag,2,St Joseph's,88,5E (YAC)
+818,2022-10-18 13:55:41,G,Pick,2.0,486,1023509,meloxicam 7.5mg tablet,2,St Joseph's,43,RX
+819,2022-10-18 13:55:55,V,Event,1.0,109,1038389,QUEtiapine XR 50mg tablet,2,St Joseph's,43,RX
+820,2022-10-18 13:55:55,G,Pick,1.0,109,1038390,QUEtiapine XR 50mg tablet,2,St Joseph's,43,RX
+821,2022-10-18 13:56:06,N,Null,0.0,194,1038545,rOPINIRole 1mg tablet,2,St Joseph's,43,RX
+822,2022-10-18 13:56:26,G,Pick,1.0,25,1008655,tiotropium (SPIRIVA) 18mcg mdi,2,St Joseph's,43,RX
+823,2022-10-18 13:56:53,V,Event,1.0,193,1038544,rOPINIRole 1mg tablet,2,St Joseph's,43,RX
+824,2022-10-18 13:56:54,N,Null,0.0,181,1012415,venlafaxine (EFFEXOR 25mg tablet,2,St Joseph's,43,RX
+825,2022-10-18 13:56:55,D,Discrepancy,1.0,6,1016792,liraglutide 6mg/1mL 3mL PEN,2,St Joseph's,43,RX
+826,2022-10-18 13:56:55,C,Cycle Count,6.0,6,1016792,liraglutide 6mg/1mL 3mL PEN,2,St Joseph's,43,RX
+827,2022-10-18 13:56:58,V,Event,0.0,6,1008472,liraglutide 6mg/1mL 3mL PEN,2,St Joseph's,43,RX
+828,2022-10-18 13:57:12,I,Issue,1.0,2,1039228,niCARdipine 0.2mg/1ml 200ml bag,2,St Joseph's,18,CICU12
+829,2022-10-18 13:59:44,G,Pick,2.0,105,1009348,carbidopa-levodopa ER 1ea tablet,2,St Joseph's,43,RX
+830,2022-10-18 14:00:00,I,Issue,1.0,14,1037277,fentaNYL 100mCg/2ml 2ml vial,2,St Joseph's,36,EMD
+831,2022-10-18 14:00:01,K,Destock,1.0,14,1043579,mercaptopurine  tab 25mg SPLITab,2,St Joseph's,43,RX
+832,2022-10-18 14:00:11,V,Event,1.0,13,1041374,mercaptopurine  tab 25mg SPLITab,2,St Joseph's,43,RX
+833,2022-10-18 14:00:11,G,Pick,1.0,13,1041373,mercaptopurine  tab 25mg SPLITab,2,St Joseph's,43,RX
+834,2022-10-18 14:00:35,V,Event,1.0,41,1033537,letrozole 2.5mg tablet,2,St Joseph's,43,RX
+835,2022-10-18 14:00:35,G,Pick,1.0,41,1033538,letrozole 2.5mg tablet,2,St Joseph's,43,RX
+836,2022-10-18 14:00:39,V,Event,2.0,104,1000198,indomethacin (INDOC 25mg capsule,2,St Joseph's,43,RX
+837,2022-10-18 14:00:39,G,Pick,2.0,104,1009911,indomethacin (INDOC 25mg capsule,2,St Joseph's,43,RX
+838,2022-10-18 14:00:57,K,Destock,6.0,72,1021373,methotrexate 2.5mg tablet,2,St Joseph's,43,RX
+839,2022-10-18 14:01:07,V,Event,1.0,38,1023266,buPROPion XL 300mg tablet,2,St Joseph's,43,RX
+840,2022-10-18 14:01:40,V,Event,3.0,16,1013203,rOPINIRole XR 4mg TABLET,2,St Joseph's,43,RX
+841,2022-10-18 14:02:39,V,Event,1.0,33,1040315,anastrozole 1mg TABLET,2,St Joseph's,43,RX
+842,2022-10-18 14:02:39,G,Pick,2.0,33,1040316,anastrozole 1mg TABLET,2,St Joseph's,43,RX
+843,2022-10-18 14:02:35,I,Issue,1.0,29,1037518,ceFAZolin 2 gm/50 m 1each duplex,2,St Joseph's,76,PREPOST
+844,2022-10-18 14:02:36,I,Issue,1.0,27,1017749,0.9% sodium chloride 1000ml bag,2,St Joseph's,36,EMD
+845,2022-10-18 14:02:36,I,Issue,1.0,16,1044592,ketorolac 30mg/1ml 1ml vial,2,St Joseph's,644794,ENT
+846,2022-10-18 14:03:10,D,Discrepancy,1.0,135,1038492,insulin asp 100units/1ml 3ml pen,2,St Joseph's,43,RX
+847,2022-10-18 14:03:10,C,Cycle Count,135.0,135,1038492,insulin asp 100units/1ml 3ml pen,2,St Joseph's,43,RX
+848,2022-10-18 14:03:12,G,Pick,0.0,135,1038492,insulin asp 100units/1ml 3ml pen,2,St Joseph's,43,RX
+849,2022-10-18 14:03:13,V,Event,1.0,1,1020074,palipe 234mg/1.5ml 1.5ml SYRINGE,2,St Joseph's,43,RX
+850,2022-10-18 14:03:13,G,Pick,1.0,1,1020075,palipe 234mg/1.5ml 1.5ml SYRINGE,2,St Joseph's,43,RX
+851,2022-10-18 14:03:11,I,Issue,1.0,3,1036832,fentaNYL 100mCg/2ml 2ml vial,2,St Joseph's,64,4P1
+852,2022-10-18 14:03:34,I,Issue,1.0,1,990005,0.9% sodium chloride 1000ml bag,2,St Joseph's,36,EMD
+853,2022-10-18 14:03:51,I,Issue,1.0,12,1028813,gabapentin 300mg capsule,2,St Joseph's,64,4P1
+854,2022-10-18 14:04:45,G,Pick,2.0,24,1038178,OLANZapine 10mg tablet,2,St Joseph's,43,RX
+855,2022-10-18 14:05:12,V,Event,2.0,55,1033556,pravastatin 20mg tablet,2,St Joseph's,43,RX
+856,2022-10-18 14:05:12,G,Pick,2.0,55,1033557,pravastatin 20mg tablet,2,St Joseph's,43,RX
+857,2022-10-18 14:05:10,R,Return,-1.0,11337,1035657,.Return Medications to Pharm Bin,2,St Joseph's,58,2NE
+858,2022-10-18 14:05:33,V,Event,1.0,19,1038395,emtricitabine 200 mg/ 1ea TABLET,2,St Joseph's,43,RX
+859,2022-10-18 14:05:33,G,Pick,1.0,19,1038375,emtricitabine 200 mg/ 1ea TABLET,2,St Joseph's,43,RX
+860,2022-10-18 14:05:38,K,Destock,1.0,8,1037109,CARBOplatin 600mg/60ml 60ml vial,2,St Joseph's,15,ONCOLOGY
+861,2022-10-18 14:05:52,V,Event,1.0,32,1041368,vilazodone 40MG tab,2,St Joseph's,43,RX
+862,2022-10-18 14:05:52,G,Pick,1.0,32,1041369,vilazodone 40MG tab,2,St Joseph's,43,RX
+863,2022-10-18 14:05:55,I,Issue,1.0,13,1034041,0.9% sodium chloride 1000ml bag,2,St Joseph's,82,7TN
+864,2022-10-18 14:06:30,I,Issue,1.0,4,1018214,heparin 100units/1mL 5mL syringe,2,St Joseph's,30,CVOPC
+865,2022-10-18 14:09:37,I,Issue,1.0,14,1042345,ePHEDrine 25mg/5mL 5mL syringe,2,St Joseph's,12,OR
+866,2022-10-18 14:09:47,G,Pick,4.0,23,1013308,iron sucrose i 20mg/1ml 5ml vial,2,St Joseph's,43,RX
+867,2022-10-18 14:09:47,V,Event,4.0,23,1013309,iron sucrose i 20mg/1ml 5ml vial,2,St Joseph's,43,RX
+868,2022-10-18 14:09:41,I,Issue,1.0,3,1022483,HYDROcodone/acetamino 1ea tablet,2,St Joseph's,644794,ENT
+869,2022-10-18 14:09:41,I,Issue,1.0,10,1004600,divalproex (DEPAKOT 500mg tablet,2,St Joseph's,80,5TN
+870,2022-10-18 14:10:03,N,Null,0.0,2,1038985,rifAXIMin 550mg tablet,2,St Joseph's,43,RX
+871,2022-10-18 14:31:09,N,Null,0.0,7,1042332,rocuronium 10mg/1ml 5ml vial,2,St Joseph's,12,OR
+872,2022-10-18 14:31:25,S,Restock,-16.0,30,1036570,diphenhydrAMINE (BE 25mg capsule,2,St Joseph's,45,VS
+873,2022-10-18 14:31:30,V,Event,5.0,140,1038111,lactobacillus GG 15Bill capsule,2,St Joseph's,43,RX
+874,2022-10-18 14:31:31,G,Pick,5.0,140,1038110,lactobacillus GG 15Bill capsule,2,St Joseph's,43,RX
+875,2022-10-18 14:31:37,I,Issue,1.0,26,1043844,perflutren lipid micros 2mL VIAL,2,St Joseph's,30,CVOPC
+876,2022-10-18 14:31:51,V,Event,0.0,0,1038984,rifAXIMin 550mg tablet,2,St Joseph's,43,RX
+877,2022-10-18 14:32:15,I,Issue,1.0,24,1043844,perflutren lipid micros 2mL VIAL,2,St Joseph's,30,CVOPC
+878,2022-10-18 14:32:16,N,Null,0.0,0,1009044,"Aux 1, Zone 1",2,St Joseph's,45,VS
+879,2022-10-18 14:32:23,I,Issue,1.0,15,1001755,furosemide (LA 40mg/4ml 4ml vial,2,St Joseph's,82,7TN
+880,2022-10-18 14:32:22,N,Null,0.0,12,1042536,neostigmine 1mg/1mL 5mL syringe,2,St Joseph's,12,OR
+881,2022-10-18 14:32:36,C,Cycle Count,13.0,13,1042537,glycopyrrolat 0.2mg/1ml 1ml vial,2,St Joseph's,12,OR
+882,2022-10-18 14:32:57,I,Issue,1.0,7,1039231,hydrALAZINE 20mg/1ml 1ml vial,2,St Joseph's,58,2NE
+883,2022-10-18 14:33:05,V,Event,2.0,50,999156,cholestyramine (light 4gm packet,2,St Joseph's,43,RX
+884,2022-10-18 14:33:10,R,Return,-1.0,5,1031640,succinylcholi 20mg/1ml 10ml vial,2,St Joseph's,44,SDS
+885,2022-10-18 14:33:21,N,Null,0.0,24,1038939,rivastigmine 13.3mg PATCH,2,St Joseph's,43,RX
+886,2022-10-18 14:33:24,N,Null,0.0,24,1038939,rivastigmine 13.3mg PATCH,2,St Joseph's,43,RX
+887,2022-10-18 14:33:20,X,Expired,1.0,1,1008789,bupivacaine 0.5% (MARC 50ml vial,2,St Joseph's,12,OR
+888,2022-10-18 14:33:44,K,Destock,2.0,1,1021466,CARBOplatin 150mg/15ml 15ml vial,2,St Joseph's,43,RX
+889,2022-10-18 14:33:56,D,Discrepancy,-1.0,3,1021315,CARBOplatin 150mg/15ml 15ml vial,2,St Joseph's,43,RX
+890,2022-10-18 14:33:56,V,Event,1.0,45,1031675,memantine HCl Exten 28mg CAPSULE,2,St Joseph's,43,RX
+891,2022-10-18 14:33:56,V,Event,1.0,45,1031675,memantine HCl Exten 28mg CAPSULE,2,St Joseph's,43,RX
+892,2022-10-18 14:33:56,G,Pick,2.0,45,1031676,memantine HCl Exten 28mg CAPSULE,2,St Joseph's,43,RX
+893,2022-10-18 14:34:04,V,Event,2.0,1,1021314,CARBOplatin 150mg/15ml 15ml vial,2,St Joseph's,43,RX
+894,2022-10-18 14:34:14,G,Pick,1.0,49,1027263,enoxapa 60mg/0.6ml 0.6ml syringe,2,St Joseph's,43,RX
+895,2022-10-18 14:34:21,I,Issue,1.0,13,988192,ferrou 7.5mg/0.5ml 0.5ml syringe,2,St Joseph's,24,NICU
+896,2022-10-18 14:34:31,K,Destock,1.0,4,1021468,CARBOplatin 450mg/45ml 45ml vial,2,St Joseph's,43,RX
+897,2022-10-18 14:34:40,G,Pick,1.0,38,1019412,pioglitazone 15mg tablet,2,St Joseph's,43,RX
+898,2022-10-18 14:34:42,G,Pick,1.0,5,1021317,CARBOplatin 450mg/45ml 45ml vial,2,St Joseph's,43,RX
+899,2022-10-18 14:34:42,V,Event,1.0,5,1021316,CARBOplatin 450mg/45ml 45ml vial,2,St Joseph's,43,RX
+900,2022-10-18 14:35:01,O,Supplemental Restock,-1.0,6,1033929,Amvisc Plus 1only unit,2,St Joseph's,44,SDS
+901,2022-10-18 14:37:51,G,Pick,1.0,35,1037968,OLANZapine 2.5mg tablet,2,St Joseph's,43,RX
+902,2022-10-18 14:37:55,I,Issue,1.0,10,1020460,ipratro 0.5mg/2.5ml 2.5ml nebule,2,St Joseph's,36,EMD
+903,2022-10-18 14:37:54,I,Issue,1.0,1,1036919,midazolam (VERS 2mg/2ml 2ml vial,2,St Joseph's,29,CATHLAB 
+904,2022-10-18 14:37:58,I,Issue,1.0,19,1020266,gabapentin 100mg capsule,2,St Joseph's,80,5TN
+905,2022-10-18 14:38:02,I,Issue,4.0,30,1034463,albuter 2.5mg/0.5ml 0.5ml nebule,2,St Joseph's,36,EMD
+906,2022-10-18 14:38:17,V,Event,2.0,18,1027118,enoxap 120mg/0.8ml 0.8ml syringe,2,St Joseph's,43,RX
+907,2022-10-18 14:38:17,G,Pick,4.0,18,1027119,enoxap 120mg/0.8ml 0.8ml syringe,2,St Joseph's,43,RX
+908,2022-10-18 14:38:40,G,Pick,4.0,49,1009086,Lacosamide 50mg TABLET,2,St Joseph's,43,RX
+909,2022-10-18 14:38:35,I,Issue,1.0,3,1040254,HYDROmorphone 2mg/1ml 1ml vial,2,St Joseph's,644795,4W SPINE
+910,2022-10-18 14:38:40,I,Issue,1.0,7,1035539,chlorhexidine (PERIDEX) 15ml cup,2,St Joseph's,82,7TN
+911,2022-10-18 14:38:48,I,Issue,1.0,4,1015926,metoclopramide 10mg/2ml 2ml vial,2,St Joseph's,18,CICU12
+912,2022-10-18 14:39:06,K,Destock,1.0,14,1022551,meropenem 500mg vial,2,St Joseph's,43,RX
+913,2022-10-18 14:39:57,I,Issue,1.0,2,1037576,fentaNYL 100mCg/2ml 2ml vial,2,St Joseph's,42,PACU
+914,2022-10-18 14:40:25,I,Issue,1.0,24,1039733,ondansetron 4mg/2ml 2ml vial,2,St Joseph's,15,ONCOLOGY
+915,2022-10-18 14:40:38,V,Event,16.0,163,998840,mesalamine (PENTAS 250mg capsule,2,St Joseph's,43,RX
+916,2022-10-18 14:40:30,I,Issue,1.0,72900,984145,.patient's other medications,2,St Joseph's,80,5TN
+917,2022-10-18 14:40:38,G,Pick,16.0,163,1010858,mesalamine (PENTAS 250mg capsule,2,St Joseph's,43,RX
+918,2022-10-18 14:40:41,K,Destock,2.0,2,1039720,vinCRIStine 2mg/2ml 2ml vial,2,St Joseph's,15,ONCOLOGY
+919,2022-10-18 14:41:03,R,Return,-1.0,99948,1007758,.patient's other medication 1 ea,2,St Joseph's,32,VN 
+920,2022-10-18 14:41:16,V,Event,0.0,4146,984051,0.9% sodium chloride 250ml bag,2,St Joseph's,43,RX
+921,2022-10-18 14:41:16,G,Pick,0.0,4146,1012283,0.9% sodium chloride 250ml bag,2,St Joseph's,43,RX
+922,2022-10-18 14:41:25,K,Destock,2.0,5,1045309,DACTINomy 0.5mg/0.5ml 0.5ml vial,2,St Joseph's,15,ONCOLOGY
+923,2022-10-18 14:41:52,V,Event,1.0,3,1021532,ARIPiprazole ER IM su 400mg VIAL,2,St Joseph's,43,RX
+924,2022-10-18 14:42:15,G,Pick,0.0,9998,1012969,0.9% sodium chloride 150ml bag,2,St Joseph's,43,RX
+925,2022-10-18 14:42:37,I,Issue,1.0,13,990048,0.9% sodium chloride 1000ml bag,2,St Joseph's,84,7S
+926,2022-10-18 14:42:55,G,Pick,1.0,28,1009198,mupirocin 2% (BACTROBA 22gm tube,2,St Joseph's,43,RX
+927,2022-10-18 14:43:21,V,Event,1.0,27,985194,mupirocin 2% (BACTROBA 22gm tube    ,2,St Joseph's,43,RX
+928,2022-10-18 14:43:21,G,Pick,1.0,27,1009198,mupirocin 2% (BACTROBA 22gm tube,2,St Joseph's,43,RX
+929,2022-10-18 14:43:13,I,Issue,1.0,4,1037465,sucralfate 1000mg/10ml 10ml cup,2,St Joseph's,36,EMD
+930,2022-10-18 14:43:50,V,Event,0.0,167,1030401,vancomycin 1000mg vial,2,St Joseph's,43,RX
+931,2022-10-18 14:43:50,G,Pick,0.0,167,1030400,vancomycin 1000mg vial,2,St Joseph's,43,RX
+932,2022-10-18 14:44:29,V,Event,1.0,20,991816,latanoprost 0.005% op 5ml bottle,2,St Joseph's,43,RX
+933,2022-10-18 14:44:29,G,Pick,1.0,20,1012651,latanoprost 0.005% op 5ml bottle,2,St Joseph's,43,RX
+934,2022-10-18 14:44:32,I,Issue,1.0,52896,984166,.patient's other medications,2,St Joseph's,81,6TN
+935,2022-10-18 14:44:51,I,Issue,1.0,21,1035095,regadenoso 0.4mg/5ml 5ml syringe,2,St Joseph's,71,NCR
+936,2022-10-18 14:45:36,I,Issue,1.0,5,1034276,ePHEDrine 25mg/5mL 5mL syringe,2,St Joseph's,12,OR
+937,2022-10-18 14:51:17,I,Issue,1.0,323569,985856,.patient's other medications,2,St Joseph's,32,VN 
+938,2022-10-18 14:51:30,C,Cycle Count,3.0,3,1021315,CARBOplatin 150mg/15ml 15ml vial,2,St Joseph's,43,RX
+939,2022-10-18 14:51:30,C,Cycle Count,3.0,3,1021315,CARBOplatin 150mg/15ml 15ml vial,2,St Joseph's,43,RX
+940,2022-10-18 14:51:40,D,Discrepancy,-1.0,6,1021317,CARBOplatin 450mg/45ml 45ml vial,2,St Joseph's,43,RX
+941,2022-10-18 14:51:40,C,Cycle Count,6.0,6,1021317,CARBOplatin 450mg/45ml 45ml vial,2,St Joseph's,43,RX
+942,2022-10-18 14:52:24,G,Pick,1.0,134,1038492,insulin asp 100units/1ml 3ml pen,2,St Joseph's,43,RX
+943,2022-10-18 15:06:27,V,Event,0.0,9103,984063,0.9% sodium chloride 50ml bag,2,St Joseph's,43,RX
+944,2022-10-18 15:06:27,I,Issue,1.0,14,991564,witch hazel-glycerin pad 1ea jar,2,St Joseph's,25,BP
+945,2022-10-18 15:06:35,D,Discrepancy,3.0,5,1044072,lidocaine  1% 10mg/1ml 5ml vial,2,St Joseph's,644808,KIT
+946,2022-10-18 15:06:35,C,Cycle Count,5.0,5,1044072,lidocaine  1% 10mg/1ml 5ml vial,2,St Joseph's,644808,KIT
+947,2022-10-18 15:06:46,V,Event,1.0,157,1044595,ketorolac 15mg/1ml 1ml syringe,2,St Joseph's,43,RX
+948,2022-10-18 15:07:14,I,Issue,1.0,20,1041559,lidocaine  1% 10mg/1ml 5ml vial,2,St Joseph's,12,OR
+949,2022-10-18 15:08:26,V,Event,1.0,31,1038123,acetaminophe 10mg/1mL 100mL vial,2,St Joseph's,43,RX
+950,2022-10-18 15:08:26,G,Pick,3.0,31,1038122,acetaminophe 10mg/1mL 100mL vial,2,St Joseph's,43,RX
+951,2022-10-18 15:08:22,I,Issue,1.0,7,1038084,albuterol-ipratropium 3ml nebule,2,St Joseph's,18,CICU12
+952,2022-10-18 15:08:26,I,Issue,2.0,66,1030708,acetaminophen 325mg tablet,2,St Joseph's,15,ONCOLOGY
+953,2025-10-18 15:08:34,N,Null,0.0,0,1008626,"Aux 1, Zone 0",2,St Joseph's,644795,4W SPINE
+954,2022-10-18 15:08:39,V,Event,0.0,0,1022496,piperacillin/tazobactam (ZOSYN),2,St Joseph's,43,RX
+955,2022-10-18 15:08:39,V,Event,0.0,0,1022496,piperacillin/tazobactam (ZOSYN),2,St Joseph's,43,RX
+956,2022-10-18 15:08:39,V,Event,0.0,0,1022496,piperacillin/tazobactam (ZOSYN),2,St Joseph's,43,RX
+957,2022-10-18 15:08:39,V,Event,0.0,0,1022496,piperacillin/tazobactam (ZOSYN),2,St Joseph's,43,RX
+958,2022-10-18 15:08:39,G,Pick,0.0,0,1022496,piperacillin/tazobactam (ZOSYN),2,St Joseph's,43,RX
+959,2022-10-18 15:08:45,I,Issue,1.0,103,1014305,diphenhydrAMINE (BE 25mg capsule,2,St Joseph's,15,ONCOLOGY
+960,2022-10-18 15:08:55,D,Discrepancy,1.0,22,1012914,calcium 1000mg/10ml 10ml syringe,2,St Joseph's,644808,KIT
+961,2022-10-18 15:08:55,C,Cycle Count,22.0,22,1012914,calcium 1000mg/10ml 10ml syringe,2,St Joseph's,644808,KIT
+962,2022-10-18 15:08:58,C,Cycle Count,4.0,4,1018240,propofol (D 10mg/1ml 50ml bottle,2,St Joseph's,644808,KIT
+963,2022-10-18 15:09:06,V,Event,1.0,41,997026,nitroglycerin (NITRO 0.2mg patch,2,St Joseph's,43,RX
+964,2022-10-18 15:09:06,G,Pick,1.0,41,1010191,nitroglycerin (NITRO 0.2mg patch,2,St Joseph's,43,RX
+965,2022-10-18 15:09:13,V,Event,0.0,9,1008505,caffeine citra 20mg/1ml 3ml vial,2,St Joseph's,43,RX
+966,2022-10-18 15:09:13,V,Event,0.0,9,1008505,caffeine citra 20mg/1ml 3ml vial,2,St Joseph's,43,RX
+967,2022-10-18 15:09:13,G,Pick,0.0,9,1009018,caffeine citra 20mg/1ml 3ml vial,2,St Joseph's,43,RX
+968,2022-10-18 15:09:10,I,Issue,1.0,39,1038082,albuterol-ipratropium 3ml nebule,2,St Joseph's,58,2NE
+969,2022-10-18 15:09:09,I,Issue,2.0,12,1016562,bisacodyl (DULCOLAX) 5mg tablet,2,St Joseph's,82,7TN
+970,2022-10-18 15:09:27,I,Issue,1.0,26,1008077,levalb 1.25mg/0.5ml 0.5ml nebule,2,St Joseph's,80,5TN
+971,2022-10-18 15:09:38,I,Issue,1.0,2,983049,labetalol (NOR 5mg/1ml 20ml vial,2,St Joseph's,42,PACU
+972,2022-10-18 15:10:22,N,Null,0.0,70,1038674,hydrALAZINE 20mg/1ml 1ml vial,2,St Joseph's,43,RX
+973,2022-10-18 15:12:25,V,Event,2.0,10,1045369,cefotaxime sodium 500mg VIAL,2,St Joseph's,43,RX
+974,2022-10-18 15:12:47,V,Event,10.0,30,992706,enalaprilat 1.25mg/1ml 1ml vial,2,St Joseph's,43,RX
+975,2022-10-18 15:13:19,G,Pick,1.0,0,1037695,cefotaxime 1000mg vial,2,St Joseph's,43,RX
+976,2022-10-18 15:13:14,I,Issue,1.0,35,986274,benztropine (COGENTIN 1mg tablet,2,St Joseph's,32,VN 
+977,2022-10-18 15:13:19,V,Event,1.0,0,1037696,cefotaxime 1000mg vial,2,St Joseph's,43,RX
+978,2022-10-18 15:13:43,G,Pick,1.0,82,1009849,dipyridamole w/ asp 1tab capsule,2,St Joseph's,43,RX
+979,2022-10-18 15:13:49,I,Issue,1.0,67,1038077,albuterol-ipratropium 3ml nebule,2,St Joseph's,80,5TN
+980,2022-10-18 15:13:50,G,Pick,1.0,35,1014759,mannitol 12.5gm/50ml 50ml vial,2,St Joseph's,644808,KIT
+981,2022-10-18 15:13:50,V,Event,2.0,19,972290,sodium bica 50meq/50ml 50ml vial,2,St Joseph's,644808,KIT
+982,2022-10-18 15:13:50,I,Issue,1.0,14,1019593,vitamin D 1000units tablet,2,St Joseph's,82,7TN
+983,2022-10-18 15:13:50,V,Event,1.0,35,1014761,mannitol 12.5gm/50ml 50ml vial,2,St Joseph's,644808,KIT
+984,2022-10-18 15:14:18,I,Issue,1.0,6,996565,multi vit.therapeutic 1ea tablet,2,St Joseph's,82,7TN
+985,2022-10-18 15:15:39,G,Pick,3.0,14,1020149,aztreonam 2gm vial,2,St Joseph's,43,RX
+986,2022-10-18 15:15:49,V,Event,1.0,47,998996,DOBUTamine 2000mcg/1ml 250ml bag,2,St Joseph's,43,RX
+987,2022-10-18 15:15:49,G,Pick,1.0,47,1012622,DOBUTamine 2000mcg/1ml 250ml bag,2,St Joseph's,43,RX
+988,2022-10-18 15:16:06,G,Pick,5.0,14,1014745,calcium gluc 100mg/1ml 10ml vial,2,St Joseph's,43,RX
+989,2022-10-18 15:16:06,V,Event,5.0,14,1014746,calcium gluc 100mg/1ml 10ml vial,2,St Joseph's,43,RX
+990,2022-10-18 15:17:44,I,Issue,1.0,13,1002055,methadone (DOLOPHINE 10mg tablet,2,St Joseph's,64,4P1
+991,2022-10-18 15:18:14,G,Pick,10.0,65,1013885,magnesium sulf 4meq/1ml 2ml vial,2,St Joseph's,43,RX
+992,2022-10-18 15:18:14,I,Issue,1.0,73424,984285,.patient's other medications,2,St Joseph's,80,5TN
+993,2022-10-18 15:18:27,G,Pick,25.0,1322,1033762,HYDROcodone/acetamino 1ea tablet,2,St Joseph's,43,RX
+994,2022-10-18 15:18:27,V,Event,25.0,0,970015,HYDROcodone/acetamino 1ea tablet,2,St Joseph's,43,RX
+995,2022-10-18 15:18:47,K,Destock,1.0,6,1034383,pneumococcal 13-Va 0.5ml syringe,2,St Joseph's,15,ONCOLOGY
+996,2022-10-18 15:18:55,G,Pick,10.0,22,1009079,sterile water 20mL vial,2,St Joseph's,43,RX
+997,2022-10-18 15:18:55,V,Event,10.0,22,997073,sterile water 20mL vial,2,St Joseph's,43,RX
+998,2022-10-18 15:19:11,G,Pick,15.0,25,1009080,sterile water 10mL vial,2,St Joseph's,43,RX
+999,2022-10-18 15:19:04,I,Issue,4.0,10,972645,glycopyrrolat 0.2mg/1ml 1ml vial,2,St Joseph's,12,OR
+1000,2022-10-18 15:19:11,V,Event,15.0,25,986939,sterile water 10mL vial,2,St Joseph's,43,RX

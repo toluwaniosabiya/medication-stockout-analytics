@@ -37,7 +37,7 @@ def build_final_table(tables: dict[str, pd.DataFrame]) -> pd.DataFrame:
             "quantity_on_hand",
         ]
     ]
-    # transaction_type column has issues that need fixing from notebook knowledge that needs fixing
+    # transaction_type column has issues that need fixing from notebook knowledge
     transaction["transaction_type"] = transaction["transaction_type"].str.strip()
     transaction["transaction_type"].unique()
 

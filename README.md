@@ -47,8 +47,6 @@ Allows users to select a ward and view:
 
 ## Dashboard Preview
 
-*(Insert screenshots of your dashboard here)*
-
 Example:
 
 ![Overview](assets/screenshots/overview.png)
