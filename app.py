@@ -33,6 +33,18 @@ fig_medications = px.bar(
     y="medication",
     orientation="h",
     title="Top Medications Stocking Out",
+    template="plotly_white",
+)
+
+fig_medications.update_xaxes(
+    showline=True,
+    linewidth=2,
+    linecolor="black",
+)
+
+# fig_medications.update_yaxes(showline=True, linewidth=2, linecolor="black", mirror=True)
+fig_medications.update_layout(
+    xaxis_title="Stockout Frequency", yaxis_title="Medication"
 )
 
 st.plotly_chart(fig_medications, use_container_width=True)
