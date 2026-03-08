@@ -1,7 +1,7 @@
 import pandas as pd
 import streamlit as st
 import plotly.express as px
-from src.stockout_logic import get_overview_metrics, get_top_medications
+from src.stockout_logic import get_overview_metrics, get_top_medications, get_top_wards
 
 from src.stockout_logic import get_overview_metrics
 
@@ -26,28 +26,55 @@ col2.metric("Affected Wards", metrics["affected_wards"])
 col3.metric("Affected Medications", metrics["affected_medications"])
 
 top_medications = get_top_medications(stockout_df)
+top_wards = get_top_wards(stockout_df)
 
-fig_medications = px.bar(
-    top_medications.sort_values("count", ascending=True),
-    x="count",
-    y="medication",
-    orientation="h",
-    title="Top Medications Stocking Out",
-    template="plotly_white",
-)
+col1, col2 = st.columns(2)
 
-fig_medications.update_xaxes(
-    showline=True,
-    linewidth=2,
-    linecolor="black",
-)
+with col1:
+    fig_medications = px.bar(
+        top_medications.sort_values("count", ascending=True),
+        x="count",
+        y="medication",
+        orientation="h",
+        title="Top Medications Stocking Out",
+        template="plotly_white",
+    )
 
-# fig_medications.update_yaxes(showline=True, linewidth=2, linecolor="black", mirror=True)
-fig_medications.update_layout(
-    xaxis_title="Stockout Frequency", yaxis_title="Medication"
-)
+    fig_medications.update_xaxes(showline=True, linewidth=2, linecolor="black")
 
-st.plotly_chart(fig_medications, use_container_width=True)
+    # fig_medications.update_yaxes(
+    #     showline=True,
+    #     linewidth=2,
+    #     linecolor="black"
+    # )
+
+    fig_medications.update_layout(
+        xaxis_title="Stockout Frequency", yaxis_title="Medication"
+    )
+
+    st.plotly_chart(fig_medications, use_container_width=True)
+
+with col2:
+    fig_wards = px.bar(
+        top_wards.sort_values("count", ascending=True),
+        x="count",
+        y="hospital_ward_name",
+        orientation="h",
+        title="Hospital Wards With Most Stockout Occurrences",
+        template="plotly_white",
+    )
+
+    fig_wards.update_xaxes(showline=True, linewidth=2, linecolor="black")
+
+    # fig_wards.update_yaxes(
+    #     showline=True,
+    #     linewidth=2,
+    #     linecolor="black"
+    # )
+
+    fig_wards.update_layout(xaxis_title="Stockout Frequency", yaxis_title="Ward")
+
+    st.plotly_chart(fig_wards, use_container_width=True)
 
 # Preview data
 st.markdown("### Stockout Events Preview")
