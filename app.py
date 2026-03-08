@@ -1,8 +1,12 @@
 import pandas as pd
 import streamlit as st
 import plotly.express as px
-from src.stockout_logic import get_overview_metrics, get_top_medications, get_top_wards
-
+from src.stockout_logic import (
+    get_overview_metrics,
+    get_top_medications,
+    get_top_wards,
+    get_stockout_table_by_ward,
+)
 from src.stockout_logic import get_overview_metrics
 
 st.set_page_config(page_title="Medication Stockout Analytics", layout="wide")
@@ -75,6 +79,23 @@ with col2:
     fig_wards.update_layout(xaxis_title="Stockout Frequency", yaxis_title="Ward")
 
     st.plotly_chart(fig_wards, use_container_width=True)
+
+st.markdown("## Stockout by Ward")
+
+ward_summary_df = get_stockout_table_by_ward(stockout_df)
+
+selected_ward = st.selectbox(
+    "Select a ward", options=sorted(ward_summary_df["hospital_ward_name"].unique())
+)
+
+filtered_ward_df = ward_summary_df[
+    ward_summary_df["hospital_ward_name"] == selected_ward
+].sort_values(by="count", ascending=False)
+filtered_ward_df = filtered_ward_df.drop(columns="hospital_ward_name").rename(
+    columns={"count": "Stockout Count", "medication": "Medication"}
+)
+
+st.dataframe(filtered_ward_df, use_container_width=True, hide_index=True)
 
 # Preview data
 st.markdown("### Stockout Events Preview")
