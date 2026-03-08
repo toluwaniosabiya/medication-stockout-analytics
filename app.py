@@ -1,5 +1,7 @@
 import pandas as pd
 import streamlit as st
+import plotly.express as px
+from src.stockout_logic import get_overview_metrics, get_top_medications
 
 from src.stockout_logic import get_overview_metrics
 
@@ -22,6 +24,18 @@ col1, col2, col3 = st.columns(3)
 col1.metric("Total Stockout Events", metrics["total_stockout_events"])
 col2.metric("Affected Wards", metrics["affected_wards"])
 col3.metric("Affected Medications", metrics["affected_medications"])
+
+top_medications = get_top_medications(stockout_df)
+
+fig_medications = px.bar(
+    top_medications.sort_values("count", ascending=True),
+    x="count",
+    y="medication",
+    orientation="h",
+    title="Top Medications Stocking Out",
+)
+
+st.plotly_chart(fig_medications, use_container_width=True)
 
 # Preview data
 st.markdown("### Stockout Events Preview")
