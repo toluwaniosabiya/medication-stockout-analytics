@@ -67,7 +67,7 @@ with stockout_by_ward_container:
     ward_summary_df = get_stockout_table_by_ward(stockout_df)
 
     selected_ward = st.selectbox(
-        "Select a ward", options=sorted(ward_summary_df["hospital_ward_name"].unique())
+        "Select a ward", options=sorted(final_table["hospital_ward_name"].unique())
     )
 
     filtered_ward_df = ward_summary_df[
@@ -87,5 +87,8 @@ with stockout_by_ward_container:
                 plot_selected_ward(filtered_ward_df, selected_ward),
                 use_container_width=True,
             )
-    else:
+    elif len(filtered_ward_df) == 1:
         st.dataframe(filtered_ward_df, use_container_width=True, hide_index=True)
+
+    else:
+        st.markdown("##### No stockouts recorded for this ward!")

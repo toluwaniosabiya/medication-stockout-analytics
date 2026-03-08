@@ -119,7 +119,7 @@ Pipeline outputs include:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/medication-stockout-analytics.git
+git clone https://github.com/toluwaniosabiya/medication-stockout-analytics.git
 cd medication-stockout-analytics
 ```
 
