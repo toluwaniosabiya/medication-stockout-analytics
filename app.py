@@ -23,7 +23,9 @@ stockout_df = pd.read_csv("data/processed/stockout_events.csv")
 # Overview metrics
 metrics = get_overview_metrics(stockout_df)
 
-col1, col2, col3 = st.columns(3)
+col1, col2, col3 = st.columns(
+    3,
+)
 
 col1.metric("Total Stockout Events", metrics["total_stockout_events"])
 col2.metric("Affected Wards", metrics["affected_wards"])
@@ -32,9 +34,9 @@ col3.metric("Affected Medications", metrics["affected_medications"])
 top_medications = get_top_medications(stockout_df)
 top_wards = get_top_wards(stockout_df)
 
-col1, col2 = st.columns(2)
+col4, col5 = st.columns(2)
 
-with col1:
+with col4:
     fig_medications = px.bar(
         top_medications.sort_values("count", ascending=True),
         x="count",
@@ -58,7 +60,7 @@ with col1:
 
     st.plotly_chart(fig_medications, use_container_width=True)
 
-with col2:
+with col5:
     fig_wards = px.bar(
         top_wards.sort_values("count", ascending=True),
         x="count",
@@ -94,9 +96,34 @@ filtered_ward_df = ward_summary_df[
 filtered_ward_df = filtered_ward_df.drop(columns="hospital_ward_name").rename(
     columns={"count": "Stockout Count", "medication": "Medication"}
 )
+col6, col7 = st.columns(2)
 
-st.dataframe(filtered_ward_df, use_container_width=True, hide_index=True)
+if len(filtered_ward_df) > 1:
+    with col6:
+        st.dataframe(filtered_ward_df, use_container_width=True, hide_index=True)
 
-# Preview data
-st.markdown("### Stockout Events Preview")
-st.dataframe(stockout_df.head(20), use_container_width=True)
+    with col7:
+        fig_selected_ward = px.bar(
+            filtered_ward_df.sort_values("Stockout Count", ascending=True),
+            x="Stockout Count",
+            y="Medication",
+            orientation="h",
+            title=f"Medications Stocking Out in {selected_ward}",
+            template="plotly_white",
+        )
+
+        fig_selected_ward.update_xaxes(showline=True, linewidth=2, linecolor="black")
+
+        # fig_selected_ward.update_yaxes(
+        #     showline=True,
+        #     linewidth=2,
+        #     linecolor="black"
+        # )
+
+        fig_selected_ward.update_layout(
+            xaxis_title="Stockout Frequency", yaxis_title="Medication"
+        )
+
+        st.plotly_chart(fig_selected_ward, use_container_width=True)
+else:
+    st.dataframe(filtered_ward_df, use_container_width=True, hide_index=True)
