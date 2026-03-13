@@ -65,6 +65,9 @@ The dashboard also allows the user get more information about the top ten (10) l
 Finally, the dashboard provides a dynamic interaction where the user can drill down into any particular ward and see the actual medications stocking out and the frequency of such occurence in that ward.
 
 ---
+Find the actual dashboard [here](https://medication-stockout-analytics-3fqbodsabtdpgshxowct2v.streamlit.app/)
+
+---
 
 ## Project Architecture
 
